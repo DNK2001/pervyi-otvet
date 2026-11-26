@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f5f0">
+    <title>Первый ответ · Маршрутизация обращений</title>
+    <link rel="stylesheet" href="/app.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-content">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <div>
+            <div class="brand-name">Первый ответ</div>
+            <div class="brand-context">Поддержка онлайн-школы</div>
+          </div>
+        </div>
+        <span class="local-status">Локальное демо</span>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="page-heading">
+        <h1>Маршрутизация обращений</h1>
+        <p>Определите, в какую очередь направить сообщение ученика.</p>
+      </div>
+
+      <div class="workspace">
+        <section class="card compose" aria-labelledby="compose-title">
+          <h2 id="compose-title">Входящее обращение</h2>
+          <form id="request-form">
+            <div class="field-heading">
+              <label for="message">Текст сообщения</label>
+              <span id="counter" class="counter">0 / 1000</span>
+            </div>
+            <textarea id="message" name="message" maxlength="1000" rows="7" required
+              autocomplete="off" placeholder="Например, ученик не может войти в личный кабинет"></textarea>
+            <p id="request-error" class="error" role="alert" hidden></p>
+
+            <div class="examples" role="group" aria-labelledby="examples-title">
+              <h3 id="examples-title">Подставить пример</h3>
+              <div class="chips">
+                <button class="chip" type="button" data-example="access">Вход в аккаунт</button>
+                <button class="chip" type="button" data-example="payment">Возврат денег</button>
+                <button class="chip" type="button" data-example="schedule">Расписание</button>
+                <button class="chip" type="button" data-example="materials">Запись урока</button>
+                <button class="chip" type="button" data-example="other">Партнёрство</button>
+              </div>
+            </div>
+
+            <button id="classify" class="button primary" type="submit">
+              <span>Определить очередь</span><span class="arrow" aria-hidden="true">→</span>
+            </button>
+          </form>
+        </section>
+
+        <section class="card review" aria-labelledby="review-title">
+          <h2 id="review-title">Рекомендация модели</h2>
+          <p id="prediction-status" class="visually-hidden" role="status"></p>
+
+          <div id="empty-result" class="empty-result">
+            <div class="empty-icon" aria-hidden="true"><span></span><span></span><span></span></div>
+            <p>Здесь появится предложенная очередь</p>
+            <p>Введите сообщение или выберите готовый пример.</p>
+          </div>
+
+          <div id="result" hidden>
+            <div id="recommendation" class="recommendation">
+              <span class="route-marker" aria-hidden="true"></span>
+              <div>
+                <p class="micro-label" id="recommendation-label"></p>
+                <p class="recommended-route" id="recommended-route"></p>
+                <p class="recommendation-detail" id="recommendation-detail"></p>
+              </div>
+            </div>
+
+            <div class="score-section" aria-labelledby="scores-title">
+              <h3 id="scores-title">Оценки по очередям</h3>
+              <ul id="score-list" class="score-list"></ul>
+            </div>
+
+            <form id="decision-form" class="decision">
+              <label for="decision">Очередь после проверки</label>
+              <div class="decision-controls">
+                <select id="decision" name="decision">
+                  <option value="access">Доступ и аккаунт</option>
+                  <option value="payment">Оплата и возврат</option>
+                  <option value="schedule">Расписание занятий</option>
+                  <option value="materials">Учебные материалы</option>
+                  <option value="manual">Ручной разбор</option>
+                </select>
+                <button class="button secondary" type="submit">Подтвердить</button>
+              </div>
+              <p id="decision-status" role="status" class="decision-status"></p>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <footer>Сообщения обрабатываются локально. Выбор очереди подтверждает оператор.</footer>
+    </main>
+  </body>
+</html>
