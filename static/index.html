@@ -1,106 +1,152 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f5f5f0">
-    <title>Первый ответ · Маршрутизация обращений</title>
-    <link rel="stylesheet" href="/app.css">
-    <script src="/app.js" defer></script>
-  </head>
-  <body>
-    <header class="topbar">
-      <div class="container topbar-content">
-        <div class="brand">
-          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
-          <div>
-            <div class="brand-name">Первый ответ</div>
-            <div class="brand-context">Поддержка онлайн-школы</div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb">
+  <title>Первый ответ · Поддержка онлайн-школы</title>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#inbox">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span><strong>Первый ответ</strong><small>Поддержка онлайн-школы</small></span>
+      </a>
+      <nav id="navigation" aria-label="Разделы приложения">
+        <span class="nav-heading">Рабочее пространство</span>
+        <a href="#inbox" data-nav="inbox"><span aria-hidden="true" class="nav-icon">▤</span>Обращения</a>
+        <a href="#history" data-nav="history"><span aria-hidden="true" class="nav-icon">◷</span>История</a>
+        <a href="#analytics" data-nav="analytics"><span aria-hidden="true" class="nav-icon">▥</span>Аналитика</a>
+        <span class="nav-heading second">Проект</span>
+        <a href="#quality" data-nav="quality"><span aria-hidden="true" class="nav-icon">◇</span>Качество ИИ</a>
+        <a href="#economics" data-nav="economics"><span aria-hidden="true" class="nav-icon">₽</span>Экономика</a>
+        <a href="#about" data-nav="about"><span aria-hidden="true" class="nav-icon">ⓘ</span>О продукте</a>
+      </nav>
+      <div class="sidebar-foot"><span class="avatar" aria-hidden="true">ОП</span><span><strong>Оператор</strong><small>Первая линия поддержки</small></span></div>
+    </aside>
+
+    <main id="main" tabindex="-1">
+      <div class="topline"><span>Первая линия <span class="crumb" aria-hidden="true">/</span> <strong id="crumb">Обращения</strong></span>
+        <span id="health" class="health" role="status"><i aria-hidden="true"></i><span>Подключение…</span></span>
+      </div>
+      <div id="notice" class="notice" role="status" hidden></div>
+      <div id="service-error" class="notice error" hidden><span role="alert" id="service-error-text"></span><button type="button" id="retry" class="button">Повторить</button></div>
+
+      <section id="workspace" class="page" aria-labelledby="workspace-title">
+        <header class="page-header">
+          <div><h1 id="workspace-title">Обращения</h1><p id="workspace-description">Проверьте рекомендацию модели и направьте обращение в очередь.</p></div>
+          <div class="actions">
+            <button type="button" id="seed" class="button">Загрузить демо</button>
+            <button type="button" id="open-new" class="button primary"><span aria-hidden="true">+</span> Новое обращение</button>
           </div>
+        </header>
+        <div id="inbox-summary" class="summary" aria-label="Статусы обращений">
+          <button type="button" data-status="" aria-pressed="true"><span>Все обращения</span><strong id="count-total">—</strong></button>
+          <button type="button" data-status="new" aria-pressed="false"><span>Новые</span><strong id="count-new">—</strong></button>
+          <button type="button" data-status="review" aria-pressed="false"><span>На разборе</span><strong id="count-review">—</strong></button>
+          <button type="button" data-status="resolved" aria-pressed="false"><span>Направлены</span><strong id="count-resolved">—</strong></button>
         </div>
-        <span class="local-status">Локальное демо</span>
-      </div>
-    </header>
-
-    <main class="container">
-      <div class="page-heading">
-        <h1>Маршрутизация обращений</h1>
-        <p>Определите, в какую очередь направить сообщение ученика.</p>
-      </div>
-
-      <div class="workspace">
-        <section class="card compose" aria-labelledby="compose-title">
-          <h2 id="compose-title">Входящее обращение</h2>
-          <form id="request-form">
-            <div class="field-heading">
-              <label for="message">Текст сообщения</label>
-              <span id="counter" class="counter">0 / 1000</span>
-            </div>
-            <textarea id="message" name="message" maxlength="1000" rows="7" required
-              autocomplete="off" placeholder="Например, ученик не может войти в личный кабинет"></textarea>
-            <p id="request-error" class="error" role="alert" hidden></p>
-
-            <div class="examples" role="group" aria-labelledby="examples-title">
-              <h3 id="examples-title">Подставить пример</h3>
-              <div class="chips">
-                <button class="chip" type="button" data-example="access">Вход в аккаунт</button>
-                <button class="chip" type="button" data-example="payment">Возврат денег</button>
-                <button class="chip" type="button" data-example="schedule">Расписание</button>
-                <button class="chip" type="button" data-example="materials">Запись урока</button>
-                <button class="chip" type="button" data-example="other">Партнёрство</button>
-              </div>
-            </div>
-
-            <button id="classify" class="button primary" type="submit">
-              <span>Определить очередь</span><span class="arrow" aria-hidden="true">→</span>
-            </button>
-          </form>
-        </section>
-
-        <section class="card review" aria-labelledby="review-title">
-          <h2 id="review-title">Рекомендация модели</h2>
-          <p id="prediction-status" class="visually-hidden" role="status"></p>
-
-          <div id="empty-result" class="empty-result">
-            <div class="empty-icon" aria-hidden="true"><span></span><span></span><span></span></div>
-            <p>Здесь появится предложенная очередь</p>
-            <p>Введите сообщение или выберите готовый пример.</p>
-          </div>
-
-          <div id="result" hidden>
-            <div id="recommendation" class="recommendation">
-              <span class="route-marker" aria-hidden="true"></span>
-              <div>
-                <p class="micro-label" id="recommendation-label"></p>
-                <p class="recommended-route" id="recommended-route"></p>
-                <p class="recommendation-detail" id="recommendation-detail"></p>
-              </div>
-            </div>
-
-            <div class="score-section" aria-labelledby="scores-title">
-              <h3 id="scores-title">Оценки по очередям</h3>
-              <ul id="score-list" class="score-list"></ul>
-            </div>
-
-            <form id="decision-form" class="decision">
-              <label for="decision">Очередь после проверки</label>
-              <div class="decision-controls">
-                <select id="decision" name="decision">
-                  <option value="access">Доступ и аккаунт</option>
-                  <option value="payment">Оплата и возврат</option>
-                  <option value="schedule">Расписание занятий</option>
-                  <option value="materials">Учебные материалы</option>
-                  <option value="manual">Ручной разбор</option>
-                </select>
-                <button class="button secondary" type="submit">Подтвердить</button>
-              </div>
-              <p id="decision-status" role="status" class="decision-status"></p>
+        <div class="workspace-grid">
+          <section class="surface inbox-panel" aria-labelledby="list-title">
+            <div class="panel-head"><h2 id="list-title">Входящие</h2><div class="actions">
+              <button type="button" id="open-import" class="button compact">Импорт CSV</button>
+              <a id="export-link" class="button compact" href="/api/export">Выгрузить</a>
+            </div></div>
+            <form id="filters" role="search" aria-label="Фильтры обращений" class="filters">
+              <label class="search"><span class="sr-only">Текст или номер обращения</span><span aria-hidden="true" class="search-icon"></span><input name="q" maxlength="200" type="search" placeholder="Текст или номер"></label>
+              <label><span class="sr-only">Статус</span><select name="status" id="status-filter"><option value="">Все статусы</option><option value="new">Новые</option><option value="review">На разборе</option><option value="resolved">Направлены</option></select></label>
+              <label><span class="sr-only">Очередь</span><select name="queue" id="queue-filter"><option value="">Все очереди</option></select></label>
+              <label><span class="sr-only">Источник данных</span><select name="scope"><option value="all">Все источники</option><option value="work">Без демо</option><option value="demo">Только демо</option></select></label>
             </form>
-          </div>
-        </section>
-      </div>
+            <p id="list-state" class="table-state" role="status">Загрузка обращений…</p>
+            <div id="table-wrapper" class="table-scroll" hidden>
+              <table class="inbox-table">
+                <caption class="sr-only">Нажмите на обращение, чтобы открыть карточку</caption>
+                <thead><tr><th scope="col">Обращение</th><th scope="col">Статус</th><th scope="col">Очередь</th></tr></thead>
+                <tbody id="ticket-rows"></tbody>
+              </table>
+            </div>
+            <div class="pagination" id="pagination" hidden>
+              <span id="page-range"></span><div class="actions"><button id="prev" type="button" class="button compact" aria-label="Предыдущая страница">‹</button><button id="next" type="button" class="button compact" aria-label="Следующая страница">›</button></div>
+            </div>
+          </section>
+          <aside class="surface inspector" aria-labelledby="inspector-title">
+            <div id="detail-empty" class="detail-empty"><span aria-hidden="true" class="document-icon"></span><h2 id="inspector-title">Карточка обращения</h2><p>Выберите обращение в списке, чтобы прочитать сообщение и принять решение.</p></div>
+            <div id="detail" hidden></div>
+          </aside>
+        </div>
+      </section>
 
-      <footer>Сообщения обрабатываются локально. Выбор очереди подтверждает оператор.</footer>
+      <section id="analytics" class="page" aria-labelledby="analytics-title" hidden>
+        <header class="page-header"><div><h1 id="analytics-title">Аналитика</h1><p>Сохранённые обращения и решения оператора.</p></div>
+          <label class="inline-control">Источник <select id="analytics-scope"><option value="work">Без демо</option><option value="demo">Только демо</option><option value="all">Все источники</option></select></label>
+        </header>
+        <div id="analytics-content" aria-live="polite"></div>
+      </section>
+
+      <section id="quality" class="page" aria-labelledby="quality-title" hidden>
+        <header class="page-header"><div><h1 id="quality-title">Качество ИИ</h1><p>Воспроизводимые замеры на размеченных синтетических обращениях.</p></div>
+          <label class="inline-control">Выборка <select id="quality-split"><option value="test">Итоговый тест</option><option value="challenge">Стресс-тест</option><option value="validation">Проверочная</option><option value="benchmark">Первый контрольный набор</option></select></label>
+        </header>
+        <div id="quality-content" aria-live="polite"></div>
+      </section>
+
+      <section id="economics" class="page" aria-labelledby="economics-title" hidden>
+        <header class="page-header"><div><h1 id="economics-title">Экономика</h1><p>Сценарный прогноз для одной онлайн-школы.</p></div>
+          <label class="inline-control">Сценарий <select id="scenario"><option value="base">Базовый</option><option value="pessimistic">Пессимистичный</option><option value="optimistic">Оптимистичный</option><option value="custom" disabled>Свои параметры</option></select></label>
+        </header>
+        <div class="two-col">
+          <section class="surface pane"><h2>Входные параметры</h2><p class="muted">Изменяйте объём, время, затраты и ожидаемое качество модели.</p>
+            <form id="economics-form"><div id="economic-fields" class="field-grid"></div>
+              <p id="economic-error" class="field-error" role="alert" hidden></p>
+              <button type="submit" class="button primary">Пересчитать</button>
+            </form>
+          </section>
+          <section class="surface pane" aria-labelledby="economic-results-title">
+            <h2 id="economic-results-title">Результат сценария</h2><div id="economic-results" aria-live="polite"></div>
+          </section>
+        </div>
+        <section class="surface pane below" aria-labelledby="sensitivity-title"><h2 id="sensitivity-title">Чувствительность</h2><p class="muted">Изменение одного параметра при фиксированных остальных.</p><div id="sensitivity"></div></section>
+      </section>
+
+      <section id="about" class="page" aria-labelledby="about-title" hidden>
+        <header class="page-header"><div><h1 id="about-title">О продукте</h1><p>Учебный MVP для первой линии поддержки онлайн-школы.</p></div></header>
+        <div class="two-col">
+          <section class="surface pane"><h2>Работа с обращением</h2><p>Модель оценивает текст, предлагает очередь или передаёт решение оператору. Действия оператора сохраняются в журнале.</p>
+            <h3>Очереди</h3><ul><li>Доступ и аккаунт</li><li>Оплата и возврат</li><li>Расписание занятий</li><li>Учебные материалы</li></ul>
+          </section>
+          <section class="surface pane"><h2>Данные и ограничения</h2><p>Приложение работает локально на Python, scikit-learn и SQLite. Данные обучения и оценки синтетические. Подтверждения оператора отражают его решение. Эталонную разметку готовят отдельно.</p>
+            <p>Для полевого пилота нужны согласованные обезличенные обращения и независимые замеры времени. В демо используйте вымышленные сообщения.</p>
+            <p>OpenAI Codex использовался для разработки кода, синтетических наборов, тестов и подготовки материалов.</p>
+          </section>
+        </div>
+      </section>
     </main>
-  </body>
+  </div>
+
+  <dialog id="new-dialog" aria-labelledby="new-title">
+    <form id="new-form" class="dialog-form">
+      <div class="panel-head"><h2 id="new-title">Новое обращение</h2><button class="button compact close" type="button" data-close aria-label="Закрыть">×</button></div>
+      <label class="stack">Текст сообщения<textarea id="new-text" rows="6" maxlength="1000" required autofocus placeholder="Введите текст обращения"></textarea></label>
+      <div class="form-meta"><span>До 1 000 символов</span><span id="text-count">0 / 1000</span></div>
+      <p class="field-error" id="new-error" role="alert" hidden></p>
+      <div class="dialog-actions"><button class="button" type="button" data-close>Отмена</button><button class="button primary" type="submit">Сохранить и проанализировать</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="import-dialog" aria-labelledby="import-title">
+    <form id="import-form" class="dialog-form">
+      <div class="panel-head"><h2 id="import-title">Импорт CSV</h2><button class="button compact close" type="button" data-close aria-label="Закрыть">×</button></div>
+      <p>Загрузите до 100 обращений. Файл в UTF-8 должен содержать столбец <code>text</code>.</p>
+      <label class="stack">Файл CSV<input id="csv-file" type="file" accept=".csv,text/csv" required autofocus></label>
+      <a href="/api/template" download="template.csv">Скачать шаблон CSV</a>
+      <p class="field-error" id="import-error" role="alert" hidden></p>
+      <div class="dialog-actions"><button class="button" type="button" data-close>Отмена</button><button class="button primary" type="submit">Импортировать</button></div>
+    </form>
+  </dialog>
+</body>
 </html>

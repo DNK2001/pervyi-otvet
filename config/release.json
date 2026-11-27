@@ -1,0 +1,11 @@
+{
+  "algorithm": "naive_bayes",
+  "threshold": 0.55,
+  "margin": 0.08,
+  "train_sha256": "fdf896bdb6f7c73b91dd8b737cb48c77c9276a28a961b5e0c05703d14486f005",
+  "config_sha256": "29a3b2b143743812e361e23286d46fa6085141b60f7341df610d78f1a1fd0164",
+  "model_code_sha256": "df8f9699063cad24b4d201f97d1b0817eb84dc7b17f528c651b6e4b12444aa6e",
+  "normalizer_sha256": "7b5abd4386ceb688cd17b26abb5ec31e69248ca69dc0ee08c83cc65b4fca43f9",
+  "sklearn": "1.7.2",
+  "version": "v2-naive_bayes-d6fb47739873"
+}

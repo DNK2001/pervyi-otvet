@@ -1,0 +1,4 @@
+/triage.py text eol=lf
+/model.py text eol=lf
+/config/experiment.json text eol=lf
+/data/v2/train.csv text eol=lf

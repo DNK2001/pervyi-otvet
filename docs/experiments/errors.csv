@@ -1,0 +1,38 @@
+split,id,tag,expected,route,candidate,score,reason,text
+test,te-086,standard,manual,schedule,schedule,0.606618989984335,wrong_suggestion,"Меня оценили по критериям другой специализации, как пересмотреть результат?"
+test,te-082,standard,manual,schedule,schedule,0.5988311374991587,wrong_suggestion,Можно разместить приглашение на студенческий клуб во внутреннем сообществе?
+test,te-078,standard,manual,payment,payment,0.5896538982220815,wrong_suggestion,Как оформить запрос на интервью с основателями платформы?
+test,te-076,standard,manual,materials,materials,0.5810063577698135,wrong_suggestion,Можно получить пресс-кит с публичными фотографиями команды?
+test,te-073,standard,manual,schedule,schedule,0.5793739702197217,wrong_suggestion,С кем согласовать использование названия школы в пресс-релизе?
+test,te-090,standard,manual,schedule,schedule,0.5708859004193989,wrong_suggestion,Как подать апелляцию по допуску на следующий уровень?
+test,te-088,standard,manual,schedule,schedule,0.5629419440888616,wrong_suggestion,"Просьба проверить содержание курса, в примере преподаватель перепутал единицы"
+test,te-051,standard,schedule,manual,schedule,0.5373861017365705,low_score,"Сдвинули очную практику раньше вводной, укажите даты обеих встреч"
+test,te-037,standard,schedule,manual,schedule,0.5310423746649104,low_score,"Просил назначить короткую встречу с куратором, какие часы можем согласовать?"
+test,te-049,standard,schedule,manual,materials,0.5215525676380011,low_score,"Первую пару по модулю переставили после семинара, дни какие теперь?"
+test,te-039,standard,schedule,manual,schedule,0.5200499554415308,low_score,"Поставьте меня на созвон после семи, подойдёт любая среда"
+test,te-004,standard,access,manual,access,0.5185723972842319,low_score,"Мне предлагают добавить ключ доступа, а на устройстве его создать не получается"
+test,te-023,standard,payment,manual,payment,0.49961694176718435,low_score,"Не вижу отмены автоплатежа, до следующего списания два дня"
+test,te-018,standard,access,manual,access,0.47376954541147,low_score,"Подскажите, почему по приглашению я не могу завершить регистрацию учётной записи"
+test,te-072,standard,materials,manual,schedule,0.4427373480725003,low_score,"Обновите видео занятия, в середине несколько минут чёрного экрана"
+test,te-071,standard,materials,manual,access,0.41282049612977767,low_score,Как открыть прошлый эфир сразу с ответа на вопрос о проекте?
+test,te-020,standard,payment,manual,schedule,0.40438375644667696,low_score,Почему перевели меня на ежемесячное списание без запроса?
+test,te-054,standard,schedule,manual,payment,0.32885929485769877,low_score,Где уточнить обновлённые даты занятий после изменения порядка модулей?
+test,te-014,standard,access,manual,access,0.32740105665816177,low_score,"Ссылку для первого входа прислали, но она открывает страницу с ошибкой"
+challenge,ch-058,mixed,manual,schedule,schedule,0.6098219056392028,wrong_suggestion,"Поменяйте время урока и верните деньги за другое занятие, оба вопроса срочные"
+challenge,ch-001,negative,access,payment,payment,0.6081028903540997,wrong_suggestion,"Оплата тут ни при чём, мне бы в учётку попасть"
+challenge,ch-014,long,payment,schedule,schedule,0.585059387498983,wrong_suggestion,"После переписки с куратором занятия идут нормально, график менять не нужно. В пятницу уже был перевод по выставленному счёту. Уточните, почему он до сих пор числится неоплаченным."
+challenge,ch-057,mixed,manual,access,access,0.5747222873058168,wrong_suggestion,"Помогите войти и скиньте запись, одну просьбу не выделяю"
+challenge,ch-060,mixed,manual,schedule,schedule,0.5737149675482689,wrong_suggestion,"Не вижу файл и нужно перенести консультацию, что сделаете первым?"
+challenge,ch-017,negative,payment,manual,payment,0.5440420954507078,low_score,"В аккаунт вошла, ошибка только в момент оплаты через банк"
+challenge,ch-018,typo,payment,manual,payment,0.5406263096590543,low_score,"Верните периплату пож, я вбил лишний ноль"
+challenge,ch-039,mixed,materials,manual,access,0.5278634660127598,low_score,"Новый пароль работает, но файл с упражнениями повреждён. Можете заменить его?"
+challenge,ch-023,mixed,schedule,manual,schedule,0.515960820266719,low_score,Шаблон уже скачала. На какое число вы перенесли практику?
+challenge,ch-021,negative,schedule,manual,payment,0.5088229277691787,low_score,"Я не хочу возврат, просто поставьте созвон на другой день"
+challenge,ch-033,mixed,materials,manual,materials,0.4660981762824459,low_score,"С расписанием разобралась, нужна только запись пропущенной лекции"
+challenge,ch-019,mixed,payment,manual,payment,0.44060844971360874,low_score,Запись урока уже скачал. Вопрос один: пришлите квитанцию по взносу.
+challenge,ch-003,mixed,access,manual,schedule,0.3925430562478812,low_score,"Расписание потом посмотрю, сначала восстановите учётную запись"
+challenge,ch-006,short,access,manual,access,0.3817436723387631,low_score,Залочена учётка
+challenge,ch-028,typo,schedule,manual,schedule,0.38036152274617996,low_score,"Мож перезаписать на сриду, пятнца не идёт"
+challenge,ch-009,mixed,access,manual,access,0.37925722771493653,low_score,"Чек и материалы на месте, пожалуйста, замените адрес аккаунта"
+challenge,ch-013,mixed,payment,manual,payment,0.36826113875670374,low_score,"Материалы вижу, уточните только почему цена в банковском чеке больше"
+challenge,ch-015,emotional,payment,manual,payment,0.30645099926810704,low_score,"Я уже второй раз вижу лишнее списание, пожалуйста, разберитесь срочно"
