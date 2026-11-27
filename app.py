@@ -51,8 +51,21 @@ class TriageHandler(BaseHTTPRequestHandler):
         self.connection.settimeout(10)
 
     def log_request(self, code="-", size="-"):
-        # Поисковая строка может содержать часть обращения.
-        LOG.info("%s %s %s", self.command, self.path.split("?")[0], code)
+        # Журнал содержит только тип операции и HTTP-статус.
+        path = getattr(self, "path", "").split("?", 1)[0]
+        match = TICKET.fullmatch(path)
+        if match:
+            path = "/api/tickets/:id" + (f"/{match[2]}" if match[2] else "")
+        elif path not in STATIC_ROUTES and path not in {
+            "/api/tickets", "/api/template", "/api/export", "/api/analytics", "/api/quality",
+            "/api/health", "/api/predict", "/api/import", "/api/demo", "/api/economics",
+        }:
+            path = "unknown"
+        command = getattr(self, "command", None)
+        LOG.info("%s %s %s", command if command in {"GET", "POST"} else "other", path, code)
+
+    def log_error(self, _format, *_args):
+        LOG.info("Ошибка HTTP-запроса")
 
     def _send(self, status, content_type, body, extra=None):
         self.send_response(status)

@@ -9,3 +9,7 @@ Thumbs.db
 
 .tmp/
 var/
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
