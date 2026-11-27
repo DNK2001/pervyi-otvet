@@ -1,0 +1,285 @@
+{
+  "release": {
+    "algorithm": "svm",
+    "threshold": 0.55,
+    "margin": 0.08,
+    "train_sha256": "adf13759b270e3d74f66a13b31662b219d693eb9681ce741cf6bebcdbd00b6af",
+    "config_sha256": "29a3b2b143743812e361e23286d46fa6085141b60f7341df610d78f1a1fd0164",
+    "model_code_sha256": "df8f9699063cad24b4d201f97d1b0817eb84dc7b17f528c651b6e4b12444aa6e",
+    "normalizer_sha256": "7b5abd4386ceb688cd17b26abb5ec31e69248ca69dc0ee08c83cc65b4fca43f9",
+    "sklearn": "1.7.2",
+    "version": "v2-svm-ec3171e88325"
+  },
+  "validation_policies": {
+    "naive_bayes": {
+      "coverage": 0.18666666666666668,
+      "precision": 0.9285714285714286,
+      "wrong_share": 0.013333333333333334,
+      "manual_share": 0.8133333333333334,
+      "other_recall": 0.9333333333333333,
+      "seconds": 88.13333333333333,
+      "threshold": 0.6,
+      "allowed": true,
+      "objective": 88.39999999999999,
+      "net_month_rub": -10382.222222222215
+    },
+    "logistic": {
+      "coverage": 0.21333333333333335,
+      "precision": 0.875,
+      "wrong_share": 0.02666666666666667,
+      "manual_share": 0.7866666666666666,
+      "other_recall": 0.8666666666666667,
+      "seconds": 87.46666666666665,
+      "threshold": 0.55,
+      "allowed": true,
+      "objective": 87.99999999999999,
+      "net_month_rub": -9804.444444444434
+    },
+    "svm": {
+      "coverage": 0.3333333333333333,
+      "precision": 0.84,
+      "wrong_share": 0.05333333333333334,
+      "manual_share": 0.6666666666666667,
+      "other_recall": 0.7333333333333333,
+      "seconds": 81.46666666666667,
+      "threshold": 0.55,
+      "allowed": true,
+      "objective": 82.53333333333333,
+      "net_month_rub": -4604.444444444445
+    }
+  },
+  "datasets": {
+    "train": {
+      "n": 125,
+      "counts": {
+        "access": 25,
+        "payment": 25,
+        "schedule": 25,
+        "materials": 25,
+        "other": 25
+      },
+      "sha256": "adf13759b270e3d74f66a13b31662b219d693eb9681ce741cf6bebcdbd00b6af"
+    },
+    "validation": {
+      "n": 75,
+      "counts": {
+        "access": 15,
+        "payment": 15,
+        "schedule": 15,
+        "materials": 15,
+        "other": 15
+      },
+      "sha256": "17f599f3f8f4d890f0259afc87fd864cda0a089c53c85435d6c65977b6a00a96"
+    },
+    "test": {
+      "n": 90,
+      "counts": {
+        "access": 18,
+        "payment": 18,
+        "schedule": 18,
+        "materials": 18,
+        "other": 18
+      },
+      "sha256": "2c7bbb72388be561b1474a9e637eb0e40991bd0ad73d747eeb30d5ea2612f213"
+    },
+    "challenge": {
+      "n": 60,
+      "counts": {
+        "access": 10,
+        "payment": 10,
+        "schedule": 10,
+        "materials": 10,
+        "other": 20
+      },
+      "sha256": "bfb51744aaf7726f0a373daf769cbd128b46765a1a0956cdcce3f30e9bafe126"
+    }
+  },
+  "comparison": {
+    "validation": {
+      "v1": {
+        "n": 75,
+        "recommended": 44,
+        "correct": 43,
+        "wrong": 1,
+        "coverage": 0.5866666666666667,
+        "precision": 0.9772727272727273,
+        "other_recall": 0.9333333333333333,
+        "macro_f1": 0.7824798711755234,
+        "raw_known_macro_f1": 0.9660138248847927,
+        "seconds": 60.13333333333334
+      },
+      "rules": {
+        "n": 75,
+        "recommended": 30,
+        "correct": 30,
+        "wrong": 0,
+        "coverage": 0.4,
+        "precision": 1.0,
+        "other_recall": 1.0,
+        "macro_f1": 0.6119883040935672,
+        "raw_known_macro_f1": 0.639985380116959,
+        "seconds": 72.0
+      },
+      "naive_bayes": {
+        "n": 75,
+        "recommended": 14,
+        "correct": 13,
+        "wrong": 1,
+        "coverage": 0.18666666666666668,
+        "precision": 0.9285714285714286,
+        "other_recall": 0.9333333333333333,
+        "macro_f1": 0.3097090552468127,
+        "raw_known_macro_f1": 0.6309523809523809,
+        "seconds": 88.13333333333333
+      },
+      "logistic": {
+        "n": 75,
+        "recommended": 16,
+        "correct": 14,
+        "wrong": 2,
+        "coverage": 0.21333333333333335,
+        "precision": 0.875,
+        "other_recall": 0.8666666666666667,
+        "macro_f1": 0.3262226512226512,
+        "raw_known_macro_f1": 0.5990105719707237,
+        "seconds": 87.46666666666665
+      },
+      "svm": {
+        "n": 75,
+        "recommended": 25,
+        "correct": 21,
+        "wrong": 4,
+        "coverage": 0.3333333333333333,
+        "precision": 0.84,
+        "other_recall": 0.7333333333333333,
+        "macro_f1": 0.4196403596403597,
+        "raw_known_macro_f1": 0.7736185383244206,
+        "seconds": 81.46666666666667
+      }
+    },
+    "test": {
+      "v1": {
+        "n": 90,
+        "recommended": 50,
+        "correct": 49,
+        "wrong": 1,
+        "coverage": 0.5555555555555556,
+        "precision": 0.98,
+        "other_recall": 0.9444444444444444,
+        "macro_f1": 0.7580823931352296,
+        "raw_known_macro_f1": 0.9861003861003861,
+        "seconds": 62.111111111111114
+      },
+      "rules": {
+        "n": 90,
+        "recommended": 36,
+        "correct": 34,
+        "wrong": 2,
+        "coverage": 0.4,
+        "precision": 0.9444444444444444,
+        "other_recall": 0.8888888888888888,
+        "macro_f1": 0.5829165386584743,
+        "raw_known_macro_f1": 0.6285235732009926,
+        "seconds": 74.0
+      },
+      "naive_bayes": {
+        "n": 90,
+        "recommended": 19,
+        "correct": 19,
+        "wrong": 0,
+        "coverage": 0.2111111111111111,
+        "precision": 1.0,
+        "other_recall": 1.0,
+        "macro_f1": 0.38337506688068484,
+        "raw_known_macro_f1": 0.6623931623931624,
+        "seconds": 85.22222222222221
+      },
+      "logistic": {
+        "n": 90,
+        "recommended": 28,
+        "correct": 25,
+        "wrong": 3,
+        "coverage": 0.3111111111111111,
+        "precision": 0.8928571428571429,
+        "other_recall": 0.9444444444444444,
+        "macro_f1": 0.443531017369727,
+        "raw_known_macro_f1": 0.6160010720986331,
+        "seconds": 81.22222222222221
+      },
+      "svm": {
+        "n": 90,
+        "recommended": 33,
+        "correct": 29,
+        "wrong": 4,
+        "coverage": 0.36666666666666664,
+        "precision": 0.8787878787878788,
+        "other_recall": 0.9444444444444444,
+        "macro_f1": 0.48527946127946125,
+        "raw_known_macro_f1": 0.7169164169164169,
+        "seconds": 78.33333333333333
+      }
+    },
+    "challenge": {
+      "v1": {
+        "n": 60,
+        "recommended": 20,
+        "correct": 16,
+        "wrong": 4,
+        "coverage": 0.3333333333333333,
+        "precision": 0.8,
+        "other_recall": 0.9,
+        "macro_f1": 0.5358241758241757,
+        "raw_known_macro_f1": 0.8284007119247394,
+        "seconds": 82.66666666666667
+      },
+      "rules": {
+        "n": 60,
+        "recommended": 20,
+        "correct": 14,
+        "wrong": 6,
+        "coverage": 0.3333333333333333,
+        "precision": 0.7,
+        "other_recall": 0.85,
+        "macro_f1": 0.4856410256410257,
+        "raw_known_macro_f1": 0.4891941391941392,
+        "seconds": 85.66666666666667
+      },
+      "naive_bayes": {
+        "n": 60,
+        "recommended": 12,
+        "correct": 10,
+        "wrong": 2,
+        "coverage": 0.2,
+        "precision": 0.8333333333333334,
+        "other_recall": 0.95,
+        "macro_f1": 0.38838612368024134,
+        "raw_known_macro_f1": 0.5471227621483375,
+        "seconds": 89.0
+      },
+      "logistic": {
+        "n": 60,
+        "recommended": 16,
+        "correct": 12,
+        "wrong": 4,
+        "coverage": 0.26666666666666666,
+        "precision": 0.75,
+        "other_recall": 0.95,
+        "macro_f1": 0.4230877674956622,
+        "raw_known_macro_f1": 0.5221052631578946,
+        "seconds": 87.33333333333334
+      },
+      "svm": {
+        "n": 60,
+        "recommended": 16,
+        "correct": 12,
+        "wrong": 4,
+        "coverage": 0.26666666666666666,
+        "precision": 0.75,
+        "other_recall": 0.95,
+        "macro_f1": 0.42351190476190476,
+        "raw_known_macro_f1": 0.6478239716939407,
+        "seconds": 87.33333333333334
+      }
+    }
+  }
+}

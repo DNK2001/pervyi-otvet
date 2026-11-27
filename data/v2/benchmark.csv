@@ -1,0 +1,91 @@
+id,text,label,family,tag,source
+be-001,Авторизация обрывается с сообщением про запрещённые cookie,access,browser-state,standard,synthetic_codex_v2
+be-002,"Поменял настройки Safari, форма входа больше не запоминает меня",access,browser-state,standard,synthetic_codex_v2
+be-003,"После очистки данных приложения меня выбросило, не могу авторизоваться заново",access,browser-state,standard,synthetic_codex_v2
+be-004,"В обычном окне показывает бесконечный вход, в приватном открывается",access,browser-state,standard,synthetic_codex_v2
+be-005,Можно включить вход в кабинете из браузера в режиме инкогнито?,access,browser-state,standard,synthetic_codex_v2
+be-006,"При входе система просит выключить расширение, но подсказка не помогает",access,browser-state,standard,synthetic_codex_v2
+be-007,"Не помню, на какой ящик заводила учётку",access,username-recovery,standard,synthetic_codex_v2
+be-008,"Два адреса, ни один не видит зарегистрированного пользователя",access,username-recovery,standard,synthetic_codex_v2
+be-009,"Подскажите мой логин, по старому в базу не пускает",access,username-recovery,standard,synthetic_codex_v2
+be-010,"Учётная запись существует, а идентификатор для входа потерялся",access,username-recovery,standard,synthetic_codex_v2
+be-011,"Потерял доступ к ящику, как найти профиль по номеру ученика?",access,username-recovery,standard,synthetic_codex_v2
+be-012,"Где узнать, под каким именем меня зарегистрировали для входа?",access,username-recovery,standard,synthetic_codex_v2
+be-013,Приложение просит отпечаток пальца и поэтому я не могу попасть в аккаунт,access,device-biometric,standard,synthetic_codex_v2
+be-014,Как отвязать Face ID от входа в кабинет?,access,device-biometric,standard,synthetic_codex_v2
+be-015,После обновления телефон перестал узнавать лицо при входе на платформу,access,device-biometric,standard,synthetic_codex_v2
+be-016,"Настроили вход по биометрии, сопоставить устройство не получается",access,device-biometric,standard,synthetic_codex_v2
+be-017,Где включить обычный вход вместо разблокировки по отпечатку?,access,device-biometric,standard,synthetic_codex_v2
+be-018,"Телефон заменили, вход по биометрии требует прежнее устройство",access,device-biometric,standard,synthetic_codex_v2
+be-019,"В банке операция завершена, а школа пишет «не оплачено»",payment,bank-reconciliation,standard,synthetic_codex_v2
+be-020,"Деньги по переводу ушли, доступ к покупкам не появился, проверьте платеж",payment,bank-reconciliation,standard,synthetic_codex_v2
+be-021,"Платёжное поручение исполнено ещё в понедельник, отметки об оплате нет",payment,bank-reconciliation,standard,synthetic_codex_v2
+be-022,"Я оплатила по QR, уведомления об успешной оплате так и не было",payment,bank-reconciliation,standard,synthetic_codex_v2
+be-023,"Счёт закрыли вручную, хотя деньги по нему перечислены",payment,bank-reconciliation,standard,synthetic_codex_v2
+be-024,"Чек от банка есть, подтвердите поступление оплаты на ваш счёт",payment,bank-reconciliation,standard,synthetic_codex_v2
+be-025,"Сумма заблокирована на карте, а заказ отменился",payment,frozen-funds,standard,synthetic_codex_v2
+be-026,Банк удерживает деньги после неудачной попытки купить курс,payment,frozen-funds,standard,synthetic_codex_v2
+be-027,"Оплата не прошла, но в выписке деньги зарезервированы",payment,frozen-funds,standard,synthetic_codex_v2
+be-028,Платёж висит как «в обработке» уже несколько дней,payment,frozen-funds,standard,synthetic_codex_v2
+be-029,"Проверьте, когда разблокируют сумму после отмены транзакции",payment,frozen-funds,standard,synthetic_codex_v2
+be-030,При повторной покупке с карты висит авторизация первого платежа,payment,frozen-funds,standard,synthetic_codex_v2
+be-031,"В кабинете два неоплаченных счёта за один курс, какой закрыть?",payment,duplicate-invoice,standard,synthetic_codex_v2
+be-032,"Перевела по старому счёту, есть ли обязательство по новому?",payment,duplicate-invoice,standard,synthetic_codex_v2
+be-033,Вы можете убрать дублирующее требование об оплате за один модуль?,payment,duplicate-invoice,standard,synthetic_codex_v2
+be-034,"Счёт за продление повторился, мне нужна одна платёжка",payment,duplicate-invoice,standard,synthetic_codex_v2
+be-035,"Не могу понять, за какую покупку выставлен второй счёт",payment,duplicate-invoice,standard,synthetic_codex_v2
+be-036,"Проверьте задолженность, в квитанциях два раза указан один и тот же период",payment,duplicate-invoice,standard,synthetic_codex_v2
+be-037,"Поставили замену преподавателя, во сколько теперь занятие?",schedule,substitute,standard,synthetic_codex_v2
+be-038,У замещающего педагога такой же час практики в календаре?,schedule,substitute,standard,synthetic_codex_v2
+be-039,"В расписании замена, есть ли перенос времени?",schedule,substitute,standard,synthetic_codex_v2
+be-040,"Новый ведущий сможет только позже, подтвердите новый слот",schedule,substitute,standard,synthetic_codex_v2
+be-041,"Когда будет занятие, если вместо нашего преподавателя выступает коллега?",schedule,substitute,standard,synthetic_codex_v2
+be-042,Сколько перенесённых встреч со временным преподавателем осталось?,schedule,substitute,standard,synthetic_codex_v2
+be-043,"Перенесли аудиторию, занятие начнётся как обычно?",schedule,room-change,standard,synthetic_codex_v2
+be-044,"На уроке изменился зал, хочу проверить место и время встречи",schedule,room-change,standard,synthetic_codex_v2
+be-045,"В приглашении два кабинета для одного урока, уточните расписание",schedule,room-change,standard,synthetic_codex_v2
+be-046,"Первую встречу перенесли в другой корпус, час остался прежним?",schedule,room-change,standard,synthetic_codex_v2
+be-047,"Подтвердите, когда группа собирается в новой аудитории",schedule,room-change,standard,synthetic_codex_v2
+be-048,"Где посмотреть, в каком кабинете и когда будет итоговая консультация?",schedule,room-change,standard,synthetic_codex_v2
+be-049,Пропущенный урок можно отработать с другой группой на этой неделе?,schedule,makeup,standard,synthetic_codex_v2
+be-050,Подскажите время дополнительного урока взамен сорванного занятия,schedule,makeup,standard,synthetic_codex_v2
+be-051,"Есть ли отдельная встреча для тех, кто пропустил практику?",schedule,makeup,standard,synthetic_codex_v2
+be-052,Когда поставят отработку за прошлую пятницу?,schedule,makeup,standard,synthetic_codex_v2
+be-053,Могу присоединиться к ближайшей повторной лекции в вечерней группе?,schedule,makeup,standard,synthetic_codex_v2
+be-054,"Поставьте, пожалуйста, отработку на свободный день",schedule,makeup,standard,synthetic_codex_v2
+be-055,После завершения потока пропала папка со старыми лекциями,materials,archive,standard,synthetic_codex_v2
+be-056,Как найти запись занятия из прошлого семестра?,materials,archive,standard,synthetic_codex_v2
+be-057,Старый модуль убрали из списка. Мне нужна методичка оттуда,materials,archive,standard,synthetic_codex_v2
+be-058,"У архива прошлой группы сломалась ссылка, пришлите новый адрес",materials,archive,standard,synthetic_codex_v2
+be-059,Хочу выгрузить мои материалы перед закрытием учебного потока,materials,archive,standard,synthetic_codex_v2
+be-060,Презентации предыдущего года ещё где-то хранятся?,materials,archive,standard,synthetic_codex_v2
+be-061,Версия пособия для экранного диктора доступна?,materials,alternative-formats,standard,synthetic_codex_v2
+be-062,"Плохо вижу, можно получить таблицы в структурированном текстовом формате?",materials,alternative-formats,standard,synthetic_codex_v2
+be-063,Учебный скан нечитаемый. Есть тот же материал в Word?,materials,alternative-formats,standard,synthetic_codex_v2
+be-064,"Нужен крупный шрифт в памятке по теме, где такая версия?",materials,alternative-formats,standard,synthetic_codex_v2
+be-065,Есть компактный вариант записи для слабого интернета?,materials,alternative-formats,standard,synthetic_codex_v2
+be-066,"Поделитесь учебным текстом, который можно прочесть программой озвучки",materials,alternative-formats,standard,synthetic_codex_v2
+be-067,Вложение по теме открылось пустым после загрузки,materials,broken-download,standard,synthetic_codex_v2
+be-068,Скачиваниерабочей тетради обрывается на половине,materials,broken-download,standard,synthetic_codex_v2
+be-069,Пособие к второй лекции выдаёт «файл не найден»,materials,broken-download,standard,synthetic_codex_v2
+be-070,"Аудио загрузилось нулевого размера, отправьте другой файл",materials,broken-download,standard,synthetic_codex_v2
+be-071,"Из материалов скачивается не тетрадь, а страница входа",materials,broken-download,standard,synthetic_codex_v2
+be-072,"Попробовал загрузить методичку трижды, получаю битый архив",materials,broken-download,standard,synthetic_codex_v2
+be-073,Какой курс выбрать после базового SQL?,other,course-selection,standard,synthetic_codex_v2
+be-074,"Хочу узнать, нужны ли знания математики для программы",other,course-selection,standard,synthetic_codex_v2
+be-075,Подойдёт ли обучение начинающему дизайнеру?,other,course-selection,standard,synthetic_codex_v2
+be-076,"Я ещё не поступил, помогите сравнить два направления",other,course-selection,standard,synthetic_codex_v2
+be-077,Можно перейти на соседнюю образовательную программу по интересам?,other,course-selection,standard,synthetic_codex_v2
+be-078,"Как понять, отстаю ли я от требований продвинутого курса?",other,course-selection,standard,synthetic_codex_v2
+be-079,Можно процитировать ваше задание в моей научной статье?,other,author-rights,standard,synthetic_codex_v2
+be-080,Как указать школу в подписи к опубликованной работе?,other,author-rights,standard,synthetic_codex_v2
+be-081,Разрешите использовать методические материалы в коммерческом тренинге,other,author-rights,standard,synthetic_codex_v2
+be-082,Кому направить запрос на лицензию для переиздания?,other,author-rights,standard,synthetic_codex_v2
+be-083,Вправе ли мой блог сослаться на публичную лекцию?,other,author-rights,standard,synthetic_codex_v2
+be-084,Хочу сообщить о нарушении авторских прав в материалах курса,other,author-rights,standard,synthetic_codex_v2
+be-085,Отправляете стартовые бумажные наборы за пределы страны?,other,logistics,standard,synthetic_codex_v2
+be-086,Как поменять адрес доставки набора для практики?,other,logistics,standard,synthetic_codex_v2
+be-087,"Курьер не довёз учебный комплект, где уточнить статус отправления?",other,logistics,standard,synthetic_codex_v2
+be-088,Можно забрать пакет на стойке школы в выходные?,other,logistics,standard,synthetic_codex_v2
+be-089,Откройте список пунктов выдачи физических наборов,other,logistics,standard,synthetic_codex_v2
+be-090,Нужен трек-номер посылки с оборудованием для занятия,other,logistics,standard,synthetic_codex_v2

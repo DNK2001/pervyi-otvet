@@ -1,0 +1,76 @@
+id,text,label,family,tag,source
+va-001,Уберите мой старый планшет из списка доверенных устройств,access,device-trust,standard,synthetic_codex_v2
+va-002,"Вход с нового ноутбука заблокирован системой защиты, кто может разрешить?",access,device-trust,standard,synthetic_codex_v2
+va-003,Ноутбук отмечен как подозрительное устройство и авторизация не проходит,access,device-trust,standard,synthetic_codex_v2
+va-004,Хочу сменить устройство для подтверждения учётной записи,access,device-trust,standard,synthetic_codex_v2
+va-005,Окно про незнакомое устройство перекрыло доступ к платформе,access,device-trust,standard,synthetic_codex_v2
+va-006,"В регистрации использовали псевдоним, хочу восстановить аккаунт по настоящему имени",access,identity,standard,synthetic_codex_v2
+va-007,"Что предъявить, чтобы подтвердить, что заблокированная учётка моя?",access,identity,standard,synthetic_codex_v2
+va-008,"Меня попросили доказать принадлежность кабинета, куда отправить сведения?",access,identity,standard,synthetic_codex_v2
+va-009,"Служба безопасности приостановила мой профиль, куда подать запрос на разблокировку?",access,identity,standard,synthetic_codex_v2
+va-010,"Оформили регистрацию на родителя, теперь нужно перевести аккаунт на ученика",access,identity,standard,synthetic_codex_v2
+va-011,"Вход через школьный аккаунт, а сайт не принимает домен школы",access,account-language,standard,synthetic_codex_v2
+va-012,При авторизации через внешний аккаунт перепутались учётные записи,access,account-language,standard,synthetic_codex_v2
+va-013,"Авторизуюсь кнопкой соцсети, но платформа привязалась к старому адресу",access,account-language,standard,synthetic_codex_v2
+va-014,"Проверьте, почему единый вход возвращает меня на страницу регистрации",access,account-language,standard,synthetic_codex_v2
+va-015,Не удаётся войти с сохранённой учётной записью организации,access,account-language,standard,synthetic_codex_v2
+va-016,"В счёте за курс не учли скидку, по какой цене платить?",payment,promo,standard,synthetic_codex_v2
+va-017,"Промокод применился, а при списании взяли полную сумму",payment,promo,standard,synthetic_codex_v2
+va-018,"Цена в корзине выше согласованной, проверьте итоговый платёж",payment,promo,standard,synthetic_codex_v2
+va-019,На этапе оплаты пропала скидка для выпускников,payment,promo,standard,synthetic_codex_v2
+va-020,"Мне начислили скидку на продление, но она не уменьшила сумму",payment,promo,standard,synthetic_codex_v2
+va-021,"Курс оплачивает компания, можете заменить плательщика в счёте?",payment,payer-change,standard,synthetic_codex_v2
+va-022,"Нужен платёжный документ на имя работодателя, который вносил деньги",payment,payer-change,standard,synthetic_codex_v2
+va-023,Могу перевести стоимость курса с карты супруга?,payment,payer-change,standard,synthetic_codex_v2
+va-024,"Оплачивала бабушка, на кого указывать платёжные реквизиты?",payment,payer-change,standard,synthetic_codex_v2
+va-025,Как оформить оплату курса от юридического лица?,payment,payer-change,standard,synthetic_codex_v2
+va-026,"Выставьте, пожалуйста, сумму в рублях, текущий платёж показывает другую валюту",payment,conversion,standard,synthetic_codex_v2
+va-027,"Из-за конвертации с карты ушло больше, можно уточнить сумму списания?",payment,conversion,standard,synthetic_codex_v2
+va-028,"Хотел оплатить с зарубежной карты, валюта в счёте не совпадает",payment,conversion,standard,synthetic_codex_v2
+va-029,"В чеке одна сумма, в валютной выписке другая, проверьте оплату",payment,conversion,standard,synthetic_codex_v2
+va-030,Комиссия за перевод включена в сумму курса?,payment,conversion,standard,synthetic_codex_v2
+va-031,"Пересекаются два урока из моей группы, какой из них перенесут?",schedule,conflict,standard,synthetic_codex_v2
+va-032,"Лекция и консультация стартуют одновременно, можно подобрать другой слот?",schedule,conflict,standard,synthetic_codex_v2
+va-033,"По графику вебинар наложился на экзамен, будет перенос?",schedule,conflict,standard,synthetic_codex_v2
+va-034,"У меня две записи на одно время, хочу оставить занятие по статистике",schedule,conflict,standard,synthetic_codex_v2
+va-035,"Два потока слушают один зал в одно время, какой час считать актуальным?",schedule,conflict,standard,synthetic_codex_v2
+va-036,"Если в четверг освободится слот, перенесите меня туда",schedule,waitlist,standard,synthetic_codex_v2
+va-037,Могу записаться в лист ожидания на очную практику в пятницу?,schedule,waitlist,standard,synthetic_codex_v2
+va-038,Какие ближайшие окна у преподавателя ещё свободны?,schedule,waitlist,standard,synthetic_codex_v2
+va-039,Когда появятся места в вечерних группах?,schedule,waitlist,standard,synthetic_codex_v2
+va-040,Подскажите время ближайшей свободной консультации по расписанию,schedule,waitlist,standard,synthetic_codex_v2
+va-041,"Онбординг закончился, когда первая обязательная встреча?",schedule,start-date,standard,synthetic_codex_v2
+va-042,"Подтвердите дату старта этого потока, в письмах два разных числа",schedule,start-date,standard,synthetic_codex_v2
+va-043,Когда стартует блок практики после вводного вебинара?,schedule,start-date,standard,synthetic_codex_v2
+va-044,"В расписании на сегодня пусто, с какого числа начнутся живые встречи?",schedule,start-date,standard,synthetic_codex_v2
+va-045,Можно узнать день и час первого занятия до зачисления?,schedule,start-date,standard,synthetic_codex_v2
+va-046,"У ролика к третьей теме нет субтитров, где их найти?",materials,subtitles,standard,synthetic_codex_v2
+va-047,Можно прислать расшифровку прошлой лекции?,materials,subtitles,standard,synthetic_codex_v2
+va-048,На учебном видео отключились русские субтитры,materials,subtitles,standard,synthetic_codex_v2
+va-049,"Хочу скачать текст аудиоурока, видел ссылку на прошлом модуле",materials,subtitles,standard,synthetic_codex_v2
+va-050,Где найти файл с переводом комментариев из видео?,materials,subtitles,standard,synthetic_codex_v2
+va-051,В новой лекции ссылка на старую редакцию пособия,materials,versions,standard,synthetic_codex_v2
+va-052,"В папке с заданиями две версии файла, какая актуальна?",materials,versions,standard,synthetic_codex_v2
+va-053,"Перезалейте, пожалуйста, исправленный разбор, в записи оставили черновик",materials,versions,standard,synthetic_codex_v2
+va-054,Читатель увидит где список правок к скачанному пособию?,materials,versions,standard,synthetic_codex_v2
+va-055,"Рабочий скрипт обновился, а ссылка ведёт на предыдущую версию",materials,versions,standard,synthetic_codex_v2
+va-056,Можно забрать учебные файлы одним архивом в дорогу?,materials,offline,standard,synthetic_codex_v2
+va-057,Есть версия лекции для просмотра без интернета?,materials,offline,standard,synthetic_codex_v2
+va-058,"Хочу распечатать памятки курса, дайте ссылку на PDF",materials,offline,standard,synthetic_codex_v2
+va-059,У тарифа есть скачивание аудиозаписей к урокам?,materials,offline,standard,synthetic_codex_v2
+va-060,Материалы смотреть только на платформе или можно сохранить на диск?,materials,offline,standard,synthetic_codex_v2
+va-061,Из чего складывается итоговый балл курса?,other,exams,standard,synthetic_codex_v2
+va-062,"Можно пересдать тест, если не хватает одного балла?",other,exams,standard,synthetic_codex_v2
+va-063,Как оспорить оценку за проект?,other,exams,standard,synthetic_codex_v2
+va-064,"Ментор не засчитал решение, можно вторую проверку?",other,exams,standard,synthetic_codex_v2
+va-065,Где посмотреть критерии зачёта практического задания?,other,exams,standard,synthetic_codex_v2
+va-066,В чате одногруппник регулярно оскорбляет людей,other,chat-conduct,standard,synthetic_codex_v2
+va-067,Я хочу пожаловаться на сообщение в канале потока,other,chat-conduct,standard,synthetic_codex_v2
+va-068,Кто отвечает за модерацию обсуждений?,other,chat-conduct,standard,synthetic_codex_v2
+va-069,"Из группы удалили сообщение, почему?",other,chat-conduct,standard,synthetic_codex_v2
+va-070,Можете закрыть комментарии к моему посту в сообществе?,other,chat-conduct,standard,synthetic_codex_v2
+va-071,Интересуют карьерные консультации после обучения,other,internship-opportunities,standard,synthetic_codex_v2
+va-072,Могу отправить портфолио на профессиональную обратную связь?,other,internship-opportunities,standard,synthetic_codex_v2
+va-073,Помогаете ли вы с трудоустройством выпускников?,other,internship-opportunities,standard,synthetic_codex_v2
+va-074,Школа даёт рекомендации выпускникам на стажировку?,other,internship-opportunities,standard,synthetic_codex_v2
+va-075,Куда отнести отклик на программу работы после курсов?,other,internship-opportunities,standard,synthetic_codex_v2

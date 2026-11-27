@@ -1,0 +1,246 @@
+id,text,label,family,tag,source
+tr-001,"Забыл пароль и не понимаю, как его поменять со страницы входа",access,reset,standard,synthetic_codex_v2
+tr-002,"Подскажите, где сбросить пароль от кабинета",access,reset,standard,synthetic_codex_v2
+tr-003,При нажатии «восстановить» письмо с новой ссылкой не приходит,access,reset,standard,synthetic_codex_v2
+tr-004,"Старый пароль помню, хочу поставить новый в настройках безопасности",access,reset,standard,synthetic_codex_v2
+tr-005,Моя ссылка для смены пароля уже недействительна,access,reset,standard,synthetic_codex_v2
+tr-006,"Введите логин пишет сайт, но моя почта не подходит",access,login,standard,synthetic_codex_v2
+tr-007,Личный кабинет перестал пускать после обновления браузера,access,login,standard,synthetic_codex_v2
+tr-008,"Авторизация зациклилась, после нажатия экран входа открывается снова",access,login,standard,synthetic_codex_v2
+tr-009,У меня ошибка «пользователь не найден» в форме входа,access,login,standard,synthetic_codex_v2
+tr-010,"С домашнего компьютера войти могу, с телефона форма входа зависает",access,login,standard,synthetic_codex_v2
+tr-011,"В моём профиле опечатка в фамилии, где можно исправить",access,profile,standard,synthetic_codex_v2
+tr-012,"Хочу заменить почту, привязанную к аккаунту",access,profile,standard,synthetic_codex_v2
+tr-013,"У меня два аккаунта с разными адресами, можно оставить один?",access,profile,standard,synthetic_codex_v2
+tr-014,"Где поменять имя, которое показывается в личном кабинете?",access,profile,standard,synthetic_codex_v2
+tr-015,"Сделал новый профиль по ошибке, помогите вернуть прежний",access,profile,standard,synthetic_codex_v2
+tr-016,СМС с кодом подтверждения входа так и не доставили,access,verification,standard,synthetic_codex_v2
+tr-017,На новый номер нельзя получить код авторизации,access,verification,standard,synthetic_codex_v2
+tr-018,"Набираю цифры из письма, пишет, что код неправильный",access,verification,standard,synthetic_codex_v2
+tr-019,"Код для входа уже истёк, можно отправить ещё один?",access,verification,standard,synthetic_codex_v2
+tr-020,Хочу отключить проверку кодом при каждом входе на платформу,access,verification,standard,synthetic_codex_v2
+tr-021,Каждый раз при открытии кабинета выкидывает из аккаунта,access,session,standard,synthetic_codex_v2
+tr-022,"Разлогинило посреди занятия, теперь не пускает обратно",access,session,standard,synthetic_codex_v2
+tr-023,"Где посмотреть, на каких устройствах открыт мой аккаунт?",access,session,standard,synthetic_codex_v2
+tr-024,"Чужой компьютер остался авторизован под моей учёткой, как выйти везде?",access,session,standard,synthetic_codex_v2
+tr-025,"После паузы страница сбрасывается, приходится заново входить в профиль",access,session,standard,synthetic_codex_v2
+tr-026,"Хочу вернуть деньги за курс, подскажите процедуру",payment,refund,standard,synthetic_codex_v2
+tr-027,"Оформила возврат неделю назад, денег пока нет",payment,refund,standard,synthetic_codex_v2
+tr-028,"Отказался от обучения, как получить обратно часть оплаты?",payment,refund,standard,synthetic_codex_v2
+tr-029,"По какой карте придёт возврат, если старая уже закрыта?",payment,refund,standard,synthetic_codex_v2
+tr-030,Не дождалась обещанного возврата за отменённый пакет,payment,refund,standard,synthetic_codex_v2
+tr-031,Сумму за подписку сняли дважды в один день,payment,charge,standard,synthetic_codex_v2
+tr-032,"С карты списали деньги, хотя оплату я не подтверждала",payment,charge,standard,synthetic_codex_v2
+tr-033,Почему в выписке два одинаковых платежа за обучение,payment,charge,standard,synthetic_codex_v2
+tr-034,"Я погасил последний взнос вчера, но долг остался в кабинете",payment,charge,standard,synthetic_codex_v2
+tr-035,"Неожиданное списание после отключения продления, проверьте операцию",payment,charge,standard,synthetic_codex_v2
+tr-036,"Нужен электронный чек за оплату, письмо не нашёл",payment,receipt,standard,synthetic_codex_v2
+tr-037,"Квитанцию отправили с ошибкой в сумме, можно обновить?",payment,receipt,standard,synthetic_codex_v2
+tr-038,Где скачать документ об оплате для бухгалтерии?,payment,receipt,standard,synthetic_codex_v2
+tr-039,Запрос на счёт для оплаты выставили без реквизитов,payment,receipt,standard,synthetic_codex_v2
+tr-040,Можно переслать чек за покупку на другой адрес?,payment,receipt,standard,synthetic_codex_v2
+tr-041,Как внести очередной платеж по рассрочке на обучение?,payment,installments,standard,synthetic_codex_v2
+tr-042,Где посмотреть остаток долга по оплате курса?,payment,installments,standard,synthetic_codex_v2
+tr-043,Можно платить частями вместо одного перевода?,payment,installments,standard,synthetic_codex_v2
+tr-044,"Оплата второго взноса прошла, следующий когда?",payment,installments,standard,synthetic_codex_v2
+tr-045,"Подскажите порядок внесения предоплаты, бронь на курс уже есть",payment,installments,standard,synthetic_codex_v2
+tr-046,При нажатии «оплатить» банк возвращает ошибку,payment,checkout,standard,synthetic_codex_v2
+tr-047,"Можно заплатить другим способом, карта перестала работать",payment,checkout,standard,synthetic_codex_v2
+tr-048,"Платёж отклонился на этапе подтверждения, помогите завершить покупку",payment,checkout,standard,synthetic_codex_v2
+tr-049,"Ссылка на оплату уже не открывается, выдаёт 404",payment,checkout,standard,synthetic_codex_v2
+tr-050,"Обновил карту для подписки, но операция не проходит",payment,checkout,standard,synthetic_codex_v2
+tr-051,Можно перенести занятие на вечер четверга?,schedule,move,standard,synthetic_codex_v2
+tr-052,Как перенести мою встречу с преподавателем на следующую неделю?,schedule,move,standard,synthetic_codex_v2
+tr-053,"Перепутала день, запишите меня на другой слот вместо пятницы",schedule,move,standard,synthetic_codex_v2
+tr-054,"В это время не смогу прийти, есть ли утренняя группа?",schedule,move,standard,synthetic_codex_v2
+tr-055,Надо сдвинуть ближайший урок на час позже,schedule,move,standard,synthetic_codex_v2
+tr-056,Где посмотреть расписание моей группы на месяц?,schedule,calendar,standard,synthetic_codex_v2
+tr-057,Подскажите время начала завтрашнего занятия,schedule,calendar,standard,synthetic_codex_v2
+tr-058,Во сколько урок по математике по субботам?,schedule,calendar,standard,synthetic_codex_v2
+tr-059,На этой неделе одно занятие или два?,schedule,calendar,standard,synthetic_codex_v2
+tr-060,Какой день недели закрепили за нашей группой?,schedule,calendar,standard,synthetic_codex_v2
+tr-061,"Отмените, пожалуйста, моё занятие на сегодня",schedule,cancel,standard,synthetic_codex_v2
+tr-062,"Преподаватель написал, что урок отменён, подтвердите",schedule,cancel,standard,synthetic_codex_v2
+tr-063,"Я заболела, хочу снять запись на созвон в среду",schedule,cancel,standard,synthetic_codex_v2
+tr-064,"Не приду на утренний урок, вычеркните меня из расписания",schedule,cancel,standard,synthetic_codex_v2
+tr-065,"Занятие отмечено отменённым, а отдельного уведомления не было",schedule,cancel,standard,synthetic_codex_v2
+tr-066,"В расписании часовой пояс какой, по Москве?",schedule,timezone,standard,synthetic_codex_v2
+tr-067,"У меня в календаре другое время начала, чем в сообщении от школы",schedule,timezone,standard,synthetic_codex_v2
+tr-068,"Переехал в другой часовой пояс, как пересчитать часы уроков?",schedule,timezone,standard,synthetic_codex_v2
+tr-069,"Где менять часовой пояс, чтобы расписание отображалось верно?",schedule,timezone,standard,synthetic_codex_v2
+tr-070,"Приглашение показывает 19:00, а в личном календаре 20:00",schedule,timezone,standard,synthetic_codex_v2
+tr-071,По учебному плану уроки идут каждую неделю или через одну?,schedule,recurrence,standard,synthetic_codex_v2
+tr-072,С какого числа у нашей группы начнётся новый модуль?,schedule,recurrence,standard,synthetic_codex_v2
+tr-073,Где найти график занятий на весь семестр?,schedule,recurrence,standard,synthetic_codex_v2
+tr-074,У нас будут уроки в праздничные дни?,schedule,recurrence,standard,synthetic_codex_v2
+tr-075,Когда у потока закончится перерыв между модулями?,schedule,recurrence,standard,synthetic_codex_v2
+tr-076,"Где лежит видеозапись урока, который я пропустил?",materials,video,standard,synthetic_codex_v2
+tr-077,У записи занятия звук отстаёт от видео,materials,video,standard,synthetic_codex_v2
+tr-078,Как скачать ролик по теме прошлого урока?,materials,video,standard,synthetic_codex_v2
+tr-079,"Видеоурок не воспроизводится, на экране серое поле",materials,video,standard,synthetic_codex_v2
+tr-080,"Нужна запись вебинара, ссылку в кабинете не вижу",materials,video,standard,synthetic_codex_v2
+tr-081,Пришлите слайды с последней встречи,materials,attachments,standard,synthetic_codex_v2
+tr-082,"Файл презентации повреждён, скачивается пустым",materials,attachments,standard,synthetic_codex_v2
+tr-083,Где взять таблицу и конспект к уроку?,materials,attachments,standard,synthetic_codex_v2
+tr-084,В прикреплённом архиве не хватает методички,materials,attachments,standard,synthetic_codex_v2
+tr-085,В материалах к модулю открывается неправильный PDF,materials,attachments,standard,synthetic_codex_v2
+tr-086,Не вижу шаблон для домашнего задания,materials,homework-files,standard,synthetic_codex_v2
+tr-087,Где скачать исходные файлы для практики?,materials,homework-files,standard,synthetic_codex_v2
+tr-088,При открытии тренажёра к задаче отображается пустая страница,materials,homework-files,standard,synthetic_codex_v2
+tr-089,Можно получить рабочую тетрадь в редактируемом формате?,materials,homework-files,standard,synthetic_codex_v2
+tr-090,В домашке ссылка на набор данных закрыта,materials,homework-files,standard,synthetic_codex_v2
+tr-091,По ссылке на учебные материалы просит разрешение владельца,materials,permissions,standard,synthetic_codex_v2
+tr-092,"Видео к следующей теме скрыто, хотя модуль открыт",materials,permissions,standard,synthetic_codex_v2
+tr-093,"Часть уроков доступна, но вложения к ним заблокированы",materials,permissions,standard,synthetic_codex_v2
+tr-094,"Лекция помечена как просмотренная, а файл под ней не открывается",materials,permissions,standard,synthetic_codex_v2
+tr-095,Поделитесь доступом к общей папке с учебными файлами,materials,permissions,standard,synthetic_codex_v2
+tr-096,Как найти список литературы к теме про анализ данных?,materials,reading,standard,synthetic_codex_v2
+tr-097,Есть ли конспект занятия в текстовом формате?,materials,reading,standard,synthetic_codex_v2
+tr-098,Ищу словарь терминов из блока по статистике,materials,reading,standard,synthetic_codex_v2
+tr-099,На странице пропал список дополнительных материалов,materials,reading,standard,synthetic_codex_v2
+tr-100,Публиковали ли примеры решений к заданиям прошлой недели?,materials,reading,standard,synthetic_codex_v2
+tr-101,Как получить сертификат по окончании курса?,other,certificate,standard,synthetic_codex_v2
+tr-102,"Укажите, какие часы будут прописаны в дипломе",other,certificate,standard,synthetic_codex_v2
+tr-103,"Можете выдать справку, что я учусь у вас?",other,certificate,standard,synthetic_codex_v2
+tr-104,Нужен именной документ для портфолио,other,certificate,standard,synthetic_codex_v2
+tr-105,"Где уточнить, засчитают ли этот документ в моём вузе?",other,certificate,standard,synthetic_codex_v2
+tr-106,Хотим обсудить сотрудничество со школой по совместной рекламе,other,partnership,standard,synthetic_codex_v2
+tr-107,Кому отправить коммерческое предложение для партнёрства?,other,partnership,standard,synthetic_codex_v2
+tr-108,"Свяжите меня с тем, кто договаривается о коллаборациях",other,partnership,standard,synthetic_codex_v2
+tr-109,Предлагаем вместе провести открытое мероприятие для школьников,other,partnership,standard,synthetic_codex_v2
+tr-110,У нашей компании программа для образовательных партнёров,other,partnership,standard,synthetic_codex_v2
+tr-111,Есть ли у вас вакансии методиста?,other,vacancy,standard,synthetic_codex_v2
+tr-112,Как предложить свою кандидатуру на должность преподавателя?,other,vacancy,standard,synthetic_codex_v2
+tr-113,Куда кандидату отправить резюме для отбора в команду?,other,vacancy,standard,synthetic_codex_v2
+tr-114,"Ищу стажировку, берёте студентов на работу?",other,vacancy,standard,synthetic_codex_v2
+tr-115,Пришлите контакт отдела по найму,other,vacancy,standard,synthetic_codex_v2
+tr-116,Можете мне помочь?,other,vague,standard,synthetic_codex_v2
+tr-117,"Не подскажете, к кому обратиться?",other,vague,standard,synthetic_codex_v2
+tr-118,Что теперь делать?,other,vague,standard,synthetic_codex_v2
+tr-119,"Добрый день, есть вопрос",other,vague,standard,synthetic_codex_v2
+tr-120,Не получается,other,vague,standard,synthetic_codex_v2
+tr-121,Хочу оставить отзыв о работе наставника,other,teaching-feedback,standard,synthetic_codex_v2
+tr-122,"Преподаватель слишком быстро объясняет, кому передать пожелание?",other,teaching-feedback,standard,synthetic_codex_v2
+tr-123,"Меня всё устраивает, кроме тона общения куратора",other,teaching-feedback,standard,synthetic_codex_v2
+tr-124,Могу ли я предложить новую тему для программы?,other,teaching-feedback,standard,synthetic_codex_v2
+tr-125,Отправил жалобу на комментарий в чате группы,other,teaching-feedback,standard,synthetic_codex_v2
+lg-001,Не могу войти в личный кабинет после обновления пароля,access,reset,standard,synthetic_codex_v1
+lg-002,Забыла пароль от аккаунта и не знаю как его сбросить,access,reset,standard,synthetic_codex_v1
+lg-003,Не приходит код подтверждения для входа,access,verification,standard,synthetic_codex_v1
+lg-004,Ссылка для восстановления пароля уже просрочена,access,reset,standard,synthetic_codex_v1
+lg-005,При попытке авторизации появляется белый экран,access,login,standard,synthetic_codex_v1
+lg-006,Помогите поменять электронную почту в профиле,access,profile,standard,synthetic_codex_v1
+lg-007,Система заблокировала мой аккаунт после нескольких попыток входа,access,login,standard,synthetic_codex_v1
+lg-008,Где в профиле изменить фамилию,access,profile,standard,synthetic_codex_v1
+lg-009,Приложение всё время выбрасывает на экран входа,access,session,standard,synthetic_codex_v1
+lg-010,Не получается создать новую учётную запись,access,profile,standard,synthetic_codex_v1
+lg-011,Письмо для активации аккаунта не вижу даже в спаме,access,verification,standard,synthetic_codex_v1
+lg-012,После смены телефона больше не работает вход в аккаунт,access,verification,standard,synthetic_codex_v1
+lg-013,Ввожу верные логин и пароль но пишет что данные неверны,access,login,standard,synthetic_codex_v1
+lg-014,Как восстановить доступ к профилю с другого устройства,access,login,standard,synthetic_codex_v1
+lg-015,Мой адрес электронной почты уже используется при регистрации,access,profile,standard,synthetic_codex_v1
+lg-016,Не помню на какую почту зарегистрирован личный кабинет,access,profile,standard,synthetic_codex_v1
+lg-017,Утерян доступ к старому номеру на который приходит код,access,verification,standard,synthetic_codex_v1
+lg-018,В кабинете отображается чужое имя как исправить профиль,access,profile,standard,synthetic_codex_v1
+lg-019,Хочу привязать новый номер к учётной записи,access,profile,standard,synthetic_codex_v1
+lg-020,Ошибка авторизации каждый раз когда открываю кабинет,access,login,standard,synthetic_codex_v1
+lg-021,После входа меня снова просит авторизоваться,access,session,standard,synthetic_codex_v1
+lg-022,Подскажите где находится кнопка сброса пароля,access,reset,standard,synthetic_codex_v1
+lg-023,Я ввожу код из письма но сайт его не принимает,access,verification,standard,synthetic_codex_v1
+lg-024,У меня два аккаунта можно ли объединить профили,access,profile,standard,synthetic_codex_v1
+lg-025,Пишет что сессия истекла сразу при входе,access,session,standard,synthetic_codex_v1
+lg-026,Сменил пароль и теперь не пускает с ноутбука,access,reset,standard,synthetic_codex_v1
+lg-027,Не могу подтвердить почту с которой создал аккаунт,access,verification,standard,synthetic_codex_v1
+lg-028,Страница логина не открывается в браузере,access,login,standard,synthetic_codex_v1
+lg-029,Нужна помощь с восстановлением моей учётки,access,reset,standard,synthetic_codex_v1
+lg-030,Можно ли войти без кода из смс если старый номер недоступен,access,verification,standard,synthetic_codex_v1
+lg-031,Хочу вернуть деньги за курс после отказа от обучения,payment,refund,standard,synthetic_codex_v1
+lg-032,Списали оплату два раза за один курс,payment,charge,standard,synthetic_codex_v1
+lg-033,Банк отклонил платёж по карте во время оформления,payment,checkout,standard,synthetic_codex_v1
+lg-034,После перевода денег отображается задолженность,payment,charge,standard,synthetic_codex_v1
+lg-035,Где скачать чек за покупку курса,payment,receipt,standard,synthetic_codex_v1
+lg-036,Можно ли оплатить обучение банковским переводом,payment,checkout,standard,synthetic_codex_v1
+lg-037,Оплата прошла но статус заказа не изменился,payment,charge,standard,synthetic_codex_v1
+lg-038,Возвращаете ли вы часть суммы за оставшиеся уроки,payment,refund,standard,synthetic_codex_v1
+lg-039,Подскажите как отменить автоплатёж по подписке,payment,charge,standard,synthetic_codex_v1
+lg-040,Мне нужен счёт на оплату для организации,payment,receipt,standard,synthetic_codex_v1
+lg-041,При оплате рассрочки появилась ошибка,payment,installments,standard,synthetic_codex_v1
+lg-042,Как узнать дошёл ли мой платёж,payment,charge,standard,synthetic_codex_v1
+lg-043,Когда деньги за отменённый заказ вернутся на карту,payment,refund,standard,synthetic_codex_v1
+lg-044,С моей карты сняли сумму хотя покупку я не завершил,payment,charge,standard,synthetic_codex_v1
+lg-045,Хочу сменить карту для следующего списания,payment,checkout,standard,synthetic_codex_v1
+lg-046,Есть ли возможность заплатить стоимость курса частями,payment,installments,standard,synthetic_codex_v1
+lg-047,Пришлите пожалуйста подтверждение оплаты для бухгалтерии,payment,receipt,standard,synthetic_codex_v1
+lg-048,Не получается применить промокод в корзине,payment,checkout,standard,synthetic_codex_v1
+lg-049,В чеке неверные данные покупателя,payment,receipt,standard,synthetic_codex_v1
+lg-050,По ошибке купила два одинаковых курса можно оформить возврат,payment,refund,standard,synthetic_codex_v1
+lg-051,При оплате не открывается страница банка,payment,checkout,standard,synthetic_codex_v1
+lg-052,Мне нужен договор и квитанция об оплате,payment,receipt,standard,synthetic_codex_v1
+lg-053,Подписка оплатилась автоматически и мне нужен возврат,payment,refund,standard,synthetic_codex_v1
+lg-054,На какую сумму мне выставлен счёт за этот месяц,payment,receipt,standard,synthetic_codex_v1
+lg-055,Можно ли оплатить курс по реквизитам а не картой,payment,checkout,standard,synthetic_codex_v1
+lg-056,Отправил платеж но личный кабинет не подтверждает покупку,payment,charge,standard,synthetic_codex_v1
+lg-057,Хочу уточнить условия возврата после первого занятия,payment,refund,standard,synthetic_codex_v1
+lg-058,За обучение сняли больше денег чем было в заказе,payment,charge,standard,synthetic_codex_v1
+lg-059,Не пришло письмо с кассовым чеком,payment,receipt,standard,synthetic_codex_v1
+lg-060,Сколько дней занимает возврат средств на банковский счёт,payment,refund,standard,synthetic_codex_v1
+lg-061,Во сколько начнётся ближайшее занятие по курсу,schedule,calendar,standard,synthetic_codex_v1
+lg-062,Подскажите актуальное расписание на эту неделю,schedule,calendar,standard,synthetic_codex_v1
+lg-063,Можно ли перенести моё занятие на другой день,schedule,move,standard,synthetic_codex_v1
+lg-064,Преподаватель отменил встречу будет ли новый урок взамен,schedule,cancel,standard,synthetic_codex_v1
+lg-065,Где посмотреть день и время следующего вебинара,schedule,calendar,standard,synthetic_codex_v1
+lg-066,В календаре одна дата а в письме другая,schedule,timezone,standard,synthetic_codex_v1
+lg-067,Переведите меня в группу с вечерним расписанием,schedule,move,standard,synthetic_codex_v1
+lg-068,Во сколько по московскому времени начинается урок,schedule,timezone,standard,synthetic_codex_v1
+lg-069,Будут ли занятия в праздничные дни,schedule,recurrence,standard,synthetic_codex_v1
+lg-070,Когда стартует следующий поток обучения,schedule,recurrence,standard,synthetic_codex_v1
+lg-071,Сдвинулась ли дата консультации с преподавателем,schedule,move,standard,synthetic_codex_v1
+lg-072,Можно выбрать другой слот для созвона с наставником,schedule,move,standard,synthetic_codex_v1
+lg-073,Скажите в какой день назначен итоговый семинар,schedule,calendar,standard,synthetic_codex_v1
+lg-074,Как добавить события курса в свой календарь,schedule,calendar,standard,synthetic_codex_v1
+lg-075,Хотелось бы заменить утренние занятия на выходные,schedule,move,standard,synthetic_codex_v1
+lg-076,На этой неделе пара будет в четверг или в пятницу,schedule,calendar,standard,synthetic_codex_v1
+lg-077,Урок запланирован на сегодня или его перенесли,schedule,move,standard,synthetic_codex_v1
+lg-078,Где узнать когда откроется регистрация на консультацию,schedule,calendar,standard,synthetic_codex_v1
+lg-079,Когда будет перерыв между двумя частями вебинара,schedule,recurrence,standard,synthetic_codex_v1
+lg-080,Уточните сколько времени длится живое занятие,schedule,calendar,standard,synthetic_codex_v1
+lg-081,Мне нужно согласовать время индивидуальной встречи,schedule,move,standard,synthetic_codex_v1
+lg-082,Не вижу дату следующего урока в расписании,schedule,calendar,standard,synthetic_codex_v1
+lg-083,Будет ли сегодня занятие если спикер заболел,schedule,cancel,standard,synthetic_codex_v1
+lg-084,В какой день начинается новая учебная группа,schedule,recurrence,standard,synthetic_codex_v1
+lg-085,Помогите разобраться с часовым поясом в расписании,schedule,timezone,standard,synthetic_codex_v1
+lg-086,Прошу поменять время консультации на более позднее,schedule,move,standard,synthetic_codex_v1
+lg-087,Как заранее узнавать об отменах уроков,schedule,cancel,standard,synthetic_codex_v1
+lg-088,Когда обновится календарь занятий на следующий месяц,schedule,calendar,standard,synthetic_codex_v1
+lg-089,На какой день перенесли практикум,schedule,move,standard,synthetic_codex_v1
+lg-090,Можно посетить завтрашний вебинар с другой группой,schedule,move,standard,synthetic_codex_v1
+lg-091,Где найти видеозапись прошлого урока,materials,video,standard,synthetic_codex_v1
+lg-092,Пришлите материалы к занятию по первой теме,materials,attachments,standard,synthetic_codex_v1
+lg-093,Файл домашнего задания не скачивается,materials,homework-files,standard,synthetic_codex_v1
+lg-094,Не вижу ссылку на презентацию преподавателя,materials,attachments,standard,synthetic_codex_v1
+lg-095,Как скачать методичку в формате пдф,materials,attachments,standard,synthetic_codex_v1
+lg-096,Будет ли доступна запись вебинара после завершения,materials,video,standard,synthetic_codex_v1
+lg-097,Видео из второго модуля не воспроизводится,materials,video,standard,synthetic_codex_v1
+lg-098,В конспекте недостаёт страницы с примером,materials,reading,standard,synthetic_codex_v1
+lg-099,Подскажите где найти шаблон для выполнения задания,materials,homework-files,standard,synthetic_codex_v1
+lg-100,Ссылка на учебный файл выдаёт ошибку,materials,attachments,standard,synthetic_codex_v1
+lg-101,Можно получить слайды и список литературы по курсу,materials,reading,standard,synthetic_codex_v1
+lg-102,Где преподаватель выложил рабочую тетрадь,materials,homework-files,standard,synthetic_codex_v1
+lg-103,В уроке пропал звук у записи,materials,video,standard,synthetic_codex_v1
+lg-104,Уточните какая версия презентации актуальная,materials,attachments,standard,synthetic_codex_v1
+lg-105,Есть ли текстовая расшифровка видеоурока,materials,video,standard,synthetic_codex_v1
+lg-106,Нужны субтитры к записи занятия,materials,video,standard,synthetic_codex_v1
+lg-107,Где посмотреть решение разобранных на уроке задач,materials,reading,standard,synthetic_codex_v1
+lg-108,Мне доступен курс но не открывается папка с материалами,materials,permissions,standard,synthetic_codex_v1
+lg-109,Перезагрузите битый архив с примерами к модулю,materials,attachments,standard,synthetic_codex_v1
+lg-110,Можно скачать себе таблицу из учебного блока,materials,attachments,standard,synthetic_codex_v1
+lg-111,У меня отсутствуют раздаточные файлы из третьего модуля,materials,attachments,standard,synthetic_codex_v1
+lg-112,В списке уроков нет ссылки на запись прошедшего семинара,materials,video,standard,synthetic_codex_v1
+lg-113,Какие пособия скачать перед следующей темой,materials,reading,standard,synthetic_codex_v1
+lg-114,Не открывается вложение с инструкцией к упражнению,materials,homework-files,standard,synthetic_codex_v1
+lg-115,Дайте пожалуйста ссылку на образец выполненной работы,materials,homework-files,standard,synthetic_codex_v1
+lg-116,Можно получить все файлы презентации одним архивом,materials,attachments,standard,synthetic_codex_v1
+lg-117,Как посмотреть запись вебинара с телефона,materials,video,standard,synthetic_codex_v1
+lg-118,В учебнике не работает ссылка на приложение,materials,reading,standard,synthetic_codex_v1
+lg-119,Куда загрузили видео и раздатку с лекции,materials,attachments,standard,synthetic_codex_v1
+lg-120,Хочу перечитать конспект по предыдущему разделу,materials,reading,standard,synthetic_codex_v1

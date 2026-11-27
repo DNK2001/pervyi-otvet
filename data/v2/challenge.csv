@@ -1,0 +1,61 @@
+id,text,label,family,tag,source
+ch-001,"Оплата тут ни при чём, мне бы в учётку попасть",access,ch-access,negative,synthetic_codex_v2
+ch-002,"Помогите с автаризацией, код из смс не катит",access,ch-access,typo,synthetic_codex_v2
+ch-003,"Расписание потом посмотрю, сначала восстановите учётную запись",access,ch-access,mixed,synthetic_codex_v2
+ch-004,"Курс купил ещё летом. С уроками всё устраивает, но недавно сломался ноутбук. Самое срочное сейчас — снова войти под прежним пользователем, чтобы продолжить работу.",access,ch-access,long,synthetic_codex_v2
+ch-005,"Да сколько можно, форма входа в третий раз отклонила мои данные!",access,ch-access,emotional,synthetic_codex_v2
+ch-006,Залочена учётка,access,ch-access,short,synthetic_codex_v2
+ch-007,"Пароль верный, но сама страница входа не загружается",access,ch-access,negative,synthetic_codex_v2
+ch-008,"Немагу в сваи профиль, всё сразу вылетает",access,ch-access,typo,synthetic_codex_v2
+ch-009,"Чек и материалы на месте, пожалуйста, замените адрес аккаунта",access,ch-access,mixed,synthetic_codex_v2
+ch-010,"Пустите в личку, авторизация намертво встала",access,ch-access,colloquial,synthetic_codex_v2
+ch-011,"От меня не нужен перенос, хочу отменить списание за подписку",payment,ch-payment,negative,synthetic_codex_v2
+ch-012,"Задваился платож за триместр, гляньте",payment,ch-payment,typo,synthetic_codex_v2
+ch-013,"Материалы вижу, уточните только почему цена в банковском чеке больше",payment,ch-payment,mixed,synthetic_codex_v2
+ch-014,"После переписки с куратором занятия идут нормально, график менять не нужно. В пятницу уже был перевод по выставленному счёту. Уточните, почему он до сих пор числится неоплаченным.",payment,ch-payment,long,synthetic_codex_v2
+ch-015,"Я уже второй раз вижу лишнее списание, пожалуйста, разберитесь срочно",payment,ch-payment,emotional,synthetic_codex_v2
+ch-016,Возврат взноса?,payment,ch-payment,short,synthetic_codex_v2
+ch-017,"В аккаунт вошла, ошибка только в момент оплаты через банк",payment,ch-payment,negative,synthetic_codex_v2
+ch-018,"Верните периплату пож, я вбил лишний ноль",payment,ch-payment,typo,synthetic_codex_v2
+ch-019,Запись урока уже скачал. Вопрос один: пришлите квитанцию по взносу.,payment,ch-payment,mixed,synthetic_codex_v2
+ch-020,"Платёж завис, в банке крутилка висит давно",payment,ch-payment,colloquial,synthetic_codex_v2
+ch-021,"Я не хочу возврат, просто поставьте созвон на другой день",schedule,ch-schedule,negative,synthetic_codex_v2
+ch-022,"Васкресный урок во скока, в калиндаре нет",schedule,ch-schedule,typo,synthetic_codex_v2
+ch-023,Шаблон уже скачала. На какое число вы перенесли практику?,schedule,ch-schedule,mixed,synthetic_codex_v2
+ch-024,"Мы всей группой готовимся по присланным материалам. Сообщение от наставника пришло вчера, там было написано «следующий вечер». Можете уточнить календарную дату и время встречи?",schedule,ch-schedule,long,synthetic_codex_v2
+ch-025,"Третий раз меняют часы занятия, когда теперь начало?!",schedule,ch-schedule,emotional,synthetic_codex_v2
+ch-026,Куда перенесли урок?,schedule,ch-schedule,short,synthetic_codex_v2
+ch-027,"Занятие не отменяйте, сдвиньте на вечер",schedule,ch-schedule,negative,synthetic_codex_v2
+ch-028,"Мож перезаписать на сриду, пятнца не идёт",schedule,ch-schedule,typo,synthetic_codex_v2
+ch-029,"Пароль менять не хочу. Добавьте меня на другое время урока, пожалуйста.",schedule,ch-schedule,mixed,synthetic_codex_v2
+ch-030,Во сколько пересечёмся по практике? Подзабыл время,schedule,ch-schedule,colloquial,synthetic_codex_v2
+ch-031,"В кабинет вхожу, а в папке курса нет заданий к уроку",materials,ch-materials,negative,synthetic_codex_v2
+ch-032,"Киньте канспект, прикреплене битое",materials,ch-materials,typo,synthetic_codex_v2
+ch-033,"С расписанием разобралась, нужна только запись пропущенной лекции",materials,ch-materials,mixed,synthetic_codex_v2
+ch-034,"На прошлом занятии ведущий показал схему, которая нужна мне для самостоятельной работы. Видео я уже нашёл. Подскажите, где отдельно лежат слайды с этим разбором.",materials,ch-materials,long,synthetic_codex_v2
+ch-035,Ну почему ни одна таблица из практикума нормально не скачивается?!,materials,ch-materials,emotional,synthetic_codex_v2
+ch-036,Запись вебинара?,materials,ch-materials,short,synthetic_codex_v2
+ch-037,"Урок переносить не надо, откройте видео к нему",materials,ch-materials,negative,synthetic_codex_v2
+ch-038,Где рбочая тетратка для практеки,materials,ch-materials,typo,synthetic_codex_v2
+ch-039,"Новый пароль работает, но файл с упражнениями повреждён. Можете заменить его?",materials,ch-materials,mixed,synthetic_codex_v2
+ch-040,Файлик с решениями кто-нибудь может скинуть?,materials,ch-materials,colloquial,synthetic_codex_v2
+ch-041,Вы обмениваетесь исследовательскими данными с университетами?,other,ch-out-of-scope,ood,synthetic_codex_v2
+ch-042,Можно привезти ребёнка на площадку и подождать его в холле?,other,ch-out-of-scope,ood,synthetic_codex_v2
+ch-043,Хочу предложить школе стать участником нашей конференции,other,ch-out-of-scope,ood,synthetic_codex_v2
+ch-044,"У машины закончилась страховка, помогите выбрать сервис",other,ch-out-of-scope,ood,synthetic_codex_v2
+ch-045,Бронируете ли вы переговорные для сторонних команд?,other,ch-out-of-scope,ood,synthetic_codex_v2
+ch-046,Кто у вас отвечает за удаление персональных данных?,other,ch-out-of-scope,ood,synthetic_codex_v2
+ch-047,"Чек у меня есть, занятие было. Как удалить мой комментарий из форума?",other,ch-out-of-scope,negative,synthetic_codex_v2
+ch-048,Куплю две покрышки на велосипед. Самовывоз.,other,ch-out-of-scope,irrelevant,synthetic_codex_v2
+ch-049,"Спасибо, хорошего дня!",other,ch-out-of-scope,irrelevant,synthetic_codex_v2
+ch-050,Добавьте в программу блок про информационную грамотность,other,ch-out-of-scope,ood,synthetic_codex_v2
+ch-051,"Да, то же самое",other,ch-triage,vague,synthetic_codex_v2
+ch-052,Вот опять…,other,ch-triage,vague,synthetic_codex_v2
+ch-053,Не работает как раньше,other,ch-triage,vague,synthetic_codex_v2
+ch-054,Уже несколько дней жду,other,ch-triage,vague,synthetic_codex_v2
+ch-055,Срочно!,other,ch-triage,short,synthetic_codex_v2
+ch-056,"Сбросьте пароль и отмените оплату, обе вещи одинаково срочны",other,ch-triage,mixed,synthetic_codex_v2
+ch-057,"Помогите войти и скиньте запись, одну просьбу не выделяю",other,ch-triage,mixed,synthetic_codex_v2
+ch-058,"Поменяйте время урока и верните деньги за другое занятие, оба вопроса срочные",other,ch-triage,mixed,synthetic_codex_v2
+ch-059,Два одинаково важных вопроса: отменить следующую встречу и дать материалы прошлой,other,ch-triage,mixed,synthetic_codex_v2
+ch-060,"Не вижу файл и нужно перенести консультацию, что сделаете первым?",other,ch-triage,mixed,synthetic_codex_v2

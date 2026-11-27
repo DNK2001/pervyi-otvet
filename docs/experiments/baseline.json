@@ -1,0 +1,76 @@
+{
+  "n": 120,
+  "support": {
+    "access": 24,
+    "payment": 24,
+    "schedule": 24,
+    "materials": 24,
+    "other": 24
+  },
+  "auto_count": 63,
+  "auto_correct": 61,
+  "auto_wrong": 2,
+  "manual_count": 57,
+  "coverage": 0.525,
+  "auto_precision": 0.9682539682539683,
+  "correct_auto_share": 0.5083333333333333,
+  "raw_macro_f1": 0.9174998221020423,
+  "raw_f1_by_route": {
+    "access": 0.9361702127659575,
+    "payment": 0.9361702127659575,
+    "schedule": 0.9130434782608695,
+    "materials": 0.8846153846153846
+  },
+  "out_of_scope_manual_recall": 0.9166666666666666,
+  "confusion": {
+    "access": {
+      "access": 19,
+      "payment": 0,
+      "schedule": 0,
+      "materials": 0,
+      "manual": 5
+    },
+    "payment": {
+      "access": 0,
+      "payment": 13,
+      "schedule": 0,
+      "materials": 0,
+      "manual": 11
+    },
+    "schedule": {
+      "access": 0,
+      "payment": 0,
+      "schedule": 16,
+      "materials": 0,
+      "manual": 8
+    },
+    "materials": {
+      "access": 0,
+      "payment": 0,
+      "schedule": 0,
+      "materials": 13,
+      "manual": 11
+    },
+    "other": {
+      "access": 0,
+      "payment": 1,
+      "schedule": 1,
+      "materials": 0,
+      "manual": 22
+    }
+  },
+  "auto_error_examples": [
+    {
+      "text": "Вы выдаёте сертификат после окончания курса? Нужен документ для портфолио.",
+      "expected": "other",
+      "route": "payment",
+      "confidence": 0.6362113712770411
+    },
+    {
+      "text": "Будет ли возможность сдать итоговый проект индивидуально, если команда распалась?",
+      "expected": "other",
+      "route": "schedule",
+      "confidence": 0.7454841808930127
+    }
+  ]
+}

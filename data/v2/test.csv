@@ -1,0 +1,91 @@
+id,text,label,family,tag,source
+te-001,"После обновления приложение просит ключ входа, которого у меня никогда не было",access,passkey,standard,synthetic_codex_v2
+te-002,"Вход по ключу безопасности не срабатывает, можно зайти обычным способом?",access,passkey,standard,synthetic_codex_v2
+te-003,"Подскажите, чем заменить потерянный ключ для авторизации в кабинете",access,passkey,standard,synthetic_codex_v2
+te-004,"Мне предлагают добавить ключ доступа, а на устройстве его создать не получается",access,passkey,standard,synthetic_codex_v2
+te-005,"В системе два старых ключа входа, хочу добавить действующий на новый телефон",access,passkey,standard,synthetic_codex_v2
+te-006,При попытке зайти с аппаратным ключом страница пишет «не поддерживается»,access,passkey,standard,synthetic_codex_v2
+te-007,Под родительским профилем вижу чужую вкладку. Как переключиться в свою учётную запись?,access,role-profile,standard,synthetic_codex_v2
+te-008,"Кабинет всё время открывается для родителя, вход ученика не появляется",access,role-profile,standard,synthetic_codex_v2
+te-009,"Проверьте, почему мой аккаунт открывается под ролью наблюдателя",access,role-profile,standard,synthetic_codex_v2
+te-010,"Я случайно активировал профиль преподавателя, помогите зайти в профиль ученика",access,role-profile,standard,synthetic_codex_v2
+te-011,"У меня один адрес на два кабинета, как при входе выбрать мой?",access,role-profile,standard,synthetic_codex_v2
+te-012,"Удалите ошибочную связь профилей, при авторизации попадаю в кабинет сына",access,role-profile,standard,synthetic_codex_v2
+te-013,После регистрации застрял на шаге активации личного кабинета,access,activation-delay,standard,synthetic_codex_v2
+te-014,"Ссылку для первого входа прислали, но она открывает страницу с ошибкой",access,activation-delay,standard,synthetic_codex_v2
+te-015,"Ввожу адрес и код при активации, пишет, что пользователь уже зарегистрирован",access,activation-delay,standard,synthetic_codex_v2
+te-016,"Прошла сутки, только что созданный профиль всё ещё не активен",access,activation-delay,standard,synthetic_codex_v2
+te-017,"Поправил адрес в анкете, можно отправить приглашение в кабинет повторно?",access,activation-delay,standard,synthetic_codex_v2
+te-018,"Подскажите, почему по приглашению я не могу завершить регистрацию учётной записи",access,activation-delay,standard,synthetic_codex_v2
+te-019,"Хочу убрать автоматические списания, разовые оплаты оставьте",payment,autopay,standard,synthetic_codex_v2
+te-020,Почему перевели меня на ежемесячное списание без запроса?,payment,autopay,standard,synthetic_codex_v2
+te-021,"В настройках отключил продление, а банк показал новое списание за курс",payment,autopay,standard,synthetic_codex_v2
+te-022,"У меня поменялись реквизиты, как обновить карту для регулярной оплаты?",payment,autopay,standard,synthetic_codex_v2
+te-023,"Не вижу отмены автоплатежа, до следующего списания два дня",payment,autopay,standard,synthetic_codex_v2
+te-024,Можно остановить списания за подписку в следующем месяце?,payment,autopay,standard,synthetic_codex_v2
+te-025,"Для вычета нужна справка о фактической оплате, где её оформить?",payment,tax-documents,standard,synthetic_codex_v2
+te-026,"Приложите, пожалуйста, к чеку сумму оплаты за календарный год",payment,tax-documents,standard,synthetic_codex_v2
+te-027,"Мне выгрузили справку об оплате на родственника, нужна на плательщика",payment,tax-documents,standard,synthetic_codex_v2
+te-028,Как получить платёжные документы за два учебных периода?,payment,tax-documents,standard,synthetic_codex_v2
+te-029,Куда обратиться за выпиской всех платежей по договору?,payment,tax-documents,standard,synthetic_codex_v2
+te-030,"Подскажите, входит ли оплата этой платформы в справку по внесённым суммам",payment,tax-documents,standard,synthetic_codex_v2
+te-031,Зачтите остаток с отменённого заказа в счёт нового курса,payment,partial-credit,standard,synthetic_codex_v2
+te-032,"Платёж внесла частично, как получить зачёт уже переведённой суммы?",payment,partial-credit,standard,synthetic_codex_v2
+te-033,"Я оплатила два семинара, верните стоимость только одного",payment,partial-credit,standard,synthetic_codex_v2
+te-034,Подскажите размер частичного возврата за вычетом посещённых занятий,payment,partial-credit,standard,synthetic_codex_v2
+te-035,Прошу перенести остаток оплаты на оплату следующего пакета,payment,partial-credit,standard,synthetic_codex_v2
+te-036,"Мне пришла только часть возврата, где посмотреть подробности платежа?",payment,partial-credit,standard,synthetic_codex_v2
+te-037,"Просил назначить короткую встречу с куратором, какие часы можем согласовать?",schedule,one-on-one,standard,synthetic_codex_v2
+te-038,Какой ближайший свободный час для индивидуальной консультации?,schedule,one-on-one,standard,synthetic_codex_v2
+te-039,"Поставьте меня на созвон после семи, подойдёт любая среда",schedule,one-on-one,standard,synthetic_codex_v2
+te-040,"Тип встречи верный, а дата консультации в приглашении неверная",schedule,one-on-one,standard,synthetic_codex_v2
+te-041,"Забронировал разговор с преподавателем, где проверить день и время?",schedule,one-on-one,standard,synthetic_codex_v2
+te-042,Можно ли поменять часы личного созвона с ментором на более ранние?,schedule,one-on-one,standard,synthetic_codex_v2
+te-043,"Перевели часы на зимнее время, надо ли прийти на урок на час позже?",schedule,daylight,standard,synthetic_codex_v2
+te-044,"Переход на летнее время изменил показ календаря, когда начинается лекция?",schedule,daylight,standard,synthetic_codex_v2
+te-045,"Увидел уведомление на 17:00 по местному времени, подтвердите расписание на завтра",schedule,daylight,standard,synthetic_codex_v2
+te-046,"Уехал на каникулы в другой регион, как узнать местный час начала практики?",schedule,daylight,standard,synthetic_codex_v2
+te-047,"У меня в приглашении UTC и один час начала, какой час будет у нас?",schedule,daylight,standard,synthetic_codex_v2
+te-048,"Когда следующий урок по времени филиала, я поменял часовой пояс на телефоне?",schedule,daylight,standard,synthetic_codex_v2
+te-049,"Первую пару по модулю переставили после семинара, дни какие теперь?",schedule,module-order,standard,synthetic_codex_v2
+te-050,Каким занятием открывается следующая учебная неделя и во сколько?,schedule,module-order,standard,synthetic_codex_v2
+te-051,"Сдвинули очную практику раньше вводной, укажите даты обеих встреч",schedule,module-order,standard,synthetic_codex_v2
+te-052,Какой урок идёт следующим по графику нашей группы?,schedule,module-order,standard,synthetic_codex_v2
+te-053,"В списке занятий и в письме различается порядок занятий, что запланировано первым?",schedule,module-order,standard,synthetic_codex_v2
+te-054,Где уточнить обновлённые даты занятий после изменения порядка модулей?,schedule,module-order,standard,synthetic_codex_v2
+te-055,"В рабочем листе нет приложенных ответов, где их скачать?",materials,exercise-keys,standard,synthetic_codex_v2
+te-056,"Покажите, где набор тестовых задач с разбором к этому уроку",materials,exercise-keys,standard,synthetic_codex_v2
+te-057,"Упражнение решено, а ссылка на ключ к нему не открывается",materials,exercise-keys,standard,synthetic_codex_v2
+te-058,Можете загрузить примеры правильных ответов к прошлой практике?,materials,exercise-keys,standard,synthetic_codex_v2
+te-059,"Преподаватель обещал выложить решение задач на видео, где искать?",materials,exercise-keys,standard,synthetic_codex_v2
+te-060,"К домашней работе прикрепили только условие, нужен ещё файл с примерами",materials,exercise-keys,standard,synthetic_codex_v2
+te-061,"Открываю таблицу через приложение, всё по столбцам съехало. Есть исходный файл?",materials,sheets,standard,synthetic_codex_v2
+te-062,"Нужна электронная версия схемы, которую преподаватель показывал на уроке",materials,sheets,standard,synthetic_codex_v2
+te-063,"В памятке к практикуму не читаются формулы, пришлите другую копию",materials,sheets,standard,synthetic_codex_v2
+te-064,"Рабочий файл к модулю пустой, можно получить исходный документ?",materials,sheets,standard,synthetic_codex_v2
+te-065,Не нахожу в материалах чистый шаблон для заполнения,materials,sheets,standard,synthetic_codex_v2
+te-066,"Пришлите презентацию без водяного знака, его текст закрывает часть слайда",materials,sheets,standard,synthetic_codex_v2
+te-067,"Можно дать ссылку на фрагмент видео, где разобрали модель?",materials,stream-highlights,standard,synthetic_codex_v2
+te-068,"На записи лекции не грузится вторая часть, можете выложить отдельно?",materials,stream-highlights,standard,synthetic_codex_v2
+te-069,"У ролика с разбором не работают таймкоды, где искать нужный кусок?",materials,stream-highlights,standard,synthetic_codex_v2
+te-070,Нужен файл записи только с демонстрацией преподавателя,materials,stream-highlights,standard,synthetic_codex_v2
+te-071,Как открыть прошлый эфир сразу с ответа на вопрос о проекте?,materials,stream-highlights,standard,synthetic_codex_v2
+te-072,"Обновите видео занятия, в середине несколько минут чёрного экрана",materials,stream-highlights,standard,synthetic_codex_v2
+te-073,С кем согласовать использование названия школы в пресс-релизе?,other,legal-name,standard,synthetic_codex_v2
+te-074,Хочу пригласить вашего директора выступить на отраслевой выставке,other,legal-name,standard,synthetic_codex_v2
+te-075,Дайте контакт для запроса официального комментария от школы,other,legal-name,standard,synthetic_codex_v2
+te-076,Можно получить пресс-кит с публичными фотографиями команды?,other,legal-name,standard,synthetic_codex_v2
+te-077,"Есть ли отдел, который отвечает на запросы редакций?",other,legal-name,standard,synthetic_codex_v2
+te-078,Как оформить запрос на интервью с основателями платформы?,other,legal-name,standard,synthetic_codex_v2
+te-079,"Куда вступить, чтобы познакомиться с выпускниками своего города?",other,community,standard,synthetic_codex_v2
+te-080,Ищу людей для совместной работы над выпускным проектом,other,community,standard,synthetic_codex_v2
+te-081,"Хотим организовать неформальную встречу потока, можете помочь связаться?",other,community,standard,synthetic_codex_v2
+te-082,Можно разместить приглашение на студенческий клуб во внутреннем сообществе?,other,community,standard,synthetic_codex_v2
+te-083,Кто ведёт сообщество после окончания учёбы?,other,community,standard,synthetic_codex_v2
+te-084,Откройте отдельную тему для обсуждения учебного хакатона,other,community,standard,synthetic_codex_v2
+te-085,"Уточните, можно ли выбрать своего проверяющего для итоговой работы?",other,content-correction,standard,synthetic_codex_v2
+te-086,"Меня оценили по критериям другой специализации, как пересмотреть результат?",other,content-correction,standard,synthetic_codex_v2
+te-087,"Учитель прислал отзыв вне корпоративной платформы, куда передать жалобу?",other,content-correction,standard,synthetic_codex_v2
+te-088,"Просьба проверить содержание курса, в примере преподаватель перепутал единицы",other,content-correction,standard,synthetic_codex_v2
+te-089,Можно согласовать замену темы выпускного проекта?,other,content-correction,standard,synthetic_codex_v2
+te-090,Как подать апелляцию по допуску на следующий уровень?,other,content-correction,standard,synthetic_codex_v2
